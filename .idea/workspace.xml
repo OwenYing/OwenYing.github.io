@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/blog/DataStructures/DataStrustures.html" afterPath="$PROJECT_DIR$/html/blog/DataStructures/DataStructures.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyBlog.iws" />
@@ -26,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-32.857143">
-              <caret line="240" column="81" selection-start-line="240" selection-start-column="81" selection-end-line="240" selection-end-column="81" />
+            <state vertical-scroll-proportion="0.49437052">
+              <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -41,10 +40,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataStructures.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DataStructures.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/blog/DataStructures/DataStructures.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334">
+            <state vertical-scroll-proportion="-12.576923">
               <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
               <folding />
             </state>
@@ -448,7 +447,7 @@
       <workItem from="1505830244114" duration="68000" />
       <workItem from="1505830364013" duration="1411000" />
       <workItem from="1505869848702" duration="8488000" />
-      <workItem from="1505880657496" duration="171000" />
+      <workItem from="1505880657496" duration="269000" />
     </task>
     <task id="LOCAL-00001" summary="This is a try of github">
       <created>1505830494221</created>
@@ -498,11 +497,17 @@
       <option name="project" value="LOCAL" />
       <updated>1505880709331</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fix &quot;DataStrustures&quot; to &quot;DataStructures&quot;">
+      <created>1505880857715</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1505880857715</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19467000" />
+    <option name="totallyTimeSpent" value="19565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -543,7 +548,8 @@
     <MESSAGE value="Blog-CTCI-Sep192017 add content" />
     <MESSAGE value="Add Algorithms, Datastructures and Diary folder" />
     <MESSAGE value="Move DataStructure folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move DataStructure folder" />
+    <MESSAGE value="Fix &quot;DataStrustures&quot; to &quot;DataStructures&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix &quot;DataStrustures&quot; to &quot;DataStructures&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -847,24 +853,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html/blog/DataStructures/DataStructures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.576923">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-32.857143">
-          <caret line="240" column="81" selection-start-line="240" selection-start-column="81" selection-end-line="240" selection-end-column="81" />
+        <state vertical-scroll-proportion="0.49437052">
+          <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/blog/DataStructures/DataStructures.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
