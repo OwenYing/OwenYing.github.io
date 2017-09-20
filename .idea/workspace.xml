@@ -2,91 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/brown-papersq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/pojoaque.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/school-book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/agate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/androidstudio.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/arduino-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/arta.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/ascetic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-cave-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-cave-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-dune-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-dune-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-estuary-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-estuary-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-forest-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-forest-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-heath-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-heath-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-lakeside-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-lakeside-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-plateau-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-plateau-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-savanna-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-savanna-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-seaside-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-seaside-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-sulphurpool-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-sulphurpool-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atom-one-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atom-one-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/brown-paper.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/codepen-embed.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/color-brewer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/darcula.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/darkula.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/docco.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/dracula.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/far.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/foundation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/github-gist.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/github.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/googlecode.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/grayscale.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/gruvbox-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/gruvbox-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/highlight.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/hopscotch.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/hybrid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/idea.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/ir-black.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/kimbie.dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/kimbie.light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/magula.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/mono-blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/monokai-sublime.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/monokai.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/obsidian.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/ocean.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/paraiso-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/paraiso-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/pojoaque.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/purebasic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/qtcreator_dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/qtcreator_light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/railscasts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/rainbow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/routeros.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/school-book.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/solarized-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/solarized-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/sunburst.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/tomorrow-night-blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/tomorrow-night-bright.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/tomorrow-night-eighties.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/tomorrow-night.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/tomorrow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/vs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/vs2015.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/xcode.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/xt256.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/zenburn.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" afterPath="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/grid960/master.min.css" afterPath="$PROJECT_DIR$/css/grid960/master.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyBlog.iws" />
@@ -113,8 +28,8 @@
       <file leaf-file-name="Algorithms.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8486759">
-              <caret line="124" column="46" selection-start-line="124" selection-start-column="46" selection-end-line="124" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.8497475">
+              <caret line="124" column="31" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -534,7 +449,7 @@
       <workItem from="1505830364013" duration="1411000" />
       <workItem from="1505869848702" duration="8488000" />
       <workItem from="1505880657496" duration="624000" />
-      <workItem from="1505915488867" duration="7062000" />
+      <workItem from="1505915488867" duration="7157000" />
     </task>
     <task id="LOCAL-00001" summary="This is a try of github">
       <created>1505830494221</created>
@@ -602,11 +517,17 @@
       <option name="project" value="LOCAL" />
       <updated>1505918440724</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Algorithm">
+      <created>1505923692305</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1505923692305</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26982000" />
+    <option name="totallyTimeSpent" value="27077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -649,7 +570,8 @@
     <MESSAGE value="Move DataStructure folder" />
     <MESSAGE value="Fix &quot;DataStrustures&quot; to &quot;DataStructures&quot;" />
     <MESSAGE value="Diary --&gt; Sep112017_careerfair" />
-    <option name="LAST_COMMIT_MESSAGE" value="Diary --&gt; Sep112017_careerfair" />
+    <MESSAGE value="Algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1055,8 +977,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8486759">
-          <caret line="124" column="46" selection-start-line="124" selection-start-column="46" selection-end-line="124" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.8497475">
+          <caret line="124" column="31" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
           <folding />
         </state>
       </provider>
