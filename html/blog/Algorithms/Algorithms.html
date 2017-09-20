@@ -66,6 +66,13 @@
             <li>Swap 2 numbers without extra space.</li>
             <li>Odd, Even problem. <br/> Odd: get the number. Even: dissapear</li>
         </ul>
+
+        <h3> Palindrome <small>Sep 20, 2017</small>  </h3>
+        <ul>
+            <li>Stack: Push and pop, the same</li>
+            <li>One char as center, two pointers scan each side(Remember to seperate Odd and Even length)</li>
+        </ul>
+
     </div>
 
     <!--======================================-->
@@ -75,6 +82,19 @@
             Remember regex operation.
 
         </p>
+
+        <h3> Delete Duplicates in one scan <small>Sep 20, 2017</small>  </h3>
+<pre><code>//Copy non-dup to the front of the arr
+int len = 0;
+for(int i=0 ; i &lt nums.length ; i++)
+{
+    if(val != nums[i])
+    {
+        nums[len] = nums[i];
+        len++;
+    }
+}
+</code></pre>
 
     </div>
 
@@ -135,7 +155,46 @@ while(head != null)
     </div>
 
     <!--======================================-->
+    <div class="grid_4">
+        <h3> String to Int <small>Sep 20, 2017</small>  </h3>
+        <p>Calculate Sign, then pile them</p>
+<pre><code>//1,Sign
+sign = 1 - 2 * (str[i++] == '-');
+//2, Add(in and against the order)
+base  = 10 * base + (str[i++] - '0');//in order
+    //or
+for(int i=str.length()-1 ; i>=0 ; i--)// against order
+{
+    result += (str.charAt(i)-'0') * Math.pow(10,p);
+    p ++;
+}
 
+</code></pre>
+    </div>
+
+
+    <hr/>
+    <!--======================================-->
+    <div class="grid_4">
+        <h3> 3 Sums <small>Sep 20, 2017</small>  </h3>
+        <ul>
+            <li>p pointer-> first num (outer loop)</li>
+            <li>low pointer,high pointer -> scan the other part of arr, like binary search</li>
+            <li>Compare scaned elements to avoid dupicates (low ?=low--, high?=high++)</li>
+            <li>O(n^2)</li>
+        </ul>
+    </div>
+
+    <!--======================================-->
+    <div class="grid_4">
+        <h3> Find n to the end <small>Sep 20, 2017</small>  </h3>
+        <ul>
+            <li>let pointer p walk n</li>
+            <li>then q(from start) and p walk together </li>
+            <li>when p reach the end, then q are now n from end</li>
+            <li>Notice: when==-1, it must be headNode, return head</li>
+        </ul>
+    </div>
 
 
 <!--=====================================================Footer====================================-->
