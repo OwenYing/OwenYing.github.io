@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/blog/ToBeAEngineerFromScratch/Sep132017_BloombergInterview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/blog/ToBeAEngineerFromScratch/Diary.html" afterPath="$PROJECT_DIR$/html/blog/ToBeAEngineerFromScratch/Diary.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyBlog.iws" />
@@ -464,7 +462,7 @@
       <workItem from="1505869848702" duration="8488000" />
       <workItem from="1505880657496" duration="624000" />
       <workItem from="1505915488867" duration="7699000" />
-      <workItem from="1505937518472" duration="5124000" />
+      <workItem from="1505937518472" duration="5160000" />
     </task>
     <task id="LOCAL-00001" summary="This is a try of github">
       <created>1505830494221</created>
@@ -562,11 +560,17 @@
       <option name="project" value="LOCAL" />
       <updated>1505940397566</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Diary:Sep132017_Bloomberg_Interview">
+      <created>1505942744458</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1505942744459</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32743000" />
+    <option name="totallyTimeSpent" value="32779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -611,7 +615,8 @@
     <MESSAGE value="Diary --&gt; Sep112017_careerfair" />
     <MESSAGE value="Algorithm" />
     <MESSAGE value="Index:Add projects and researchs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Index:Add projects and researchs" />
+    <MESSAGE value="Diary:Sep132017_Bloomberg_Interview" />
+    <option name="LAST_COMMIT_MESSAGE" value="Diary:Sep132017_Bloomberg_Interview" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
