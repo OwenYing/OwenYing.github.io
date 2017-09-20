@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <title>Bloomberg Interview</title>
+
+    <link rel="stylesheet" href="../../../css/grid960/master.min.css" />
+    <link rel="stylesheet" href="../../../css/styles/default.css">
+    <script src="../../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+</head>
+<body>
+
+<div class="container_12" id="top">
+
+
+    <!--Title-->
+    <div class="grid_12 align_center">
+        <h4>
+            Bloomberg Interview <small>Sep 13, 2017</small>
+        </h4>
+    </div>
+
+    <!--Seperation Line-->
+    <hr />
+
+    <div class="grid_12">
+        <h3>   Bloomberg Interview <small>Sep 13, 2017</small>  </h3>
+
+        <p>
+            After the CSRC Career Fair, I got an interview from Bloomberg on campus.
+        </p>
+        <ul>I prepared a lot in the 2 days.
+            <li>Review Java basic</li>
+            <li>Review Design Pattern</li>
+            <li>Review OO Design</li>
+            <li>Review Algorithms and Data structures</li>
+            <li>Review my projects</li>
+            <li>Watch Bloombergs' website to answer <quate>Why Bloomberg?</quate></li>
+        </ul>
+
+        <p>
+            In the interview, it was not as serious as I thought. After quickly pass my resume, they started asking Algorithms and Data structures.
+            And, only Algo and Data Structs
+        </p>
+        <hr/>
+        <p>
+            First one: <br/>
+            Given an array, front part is ascend and sorted, when some point it turns descend and sorted. Given target, find the target's index in the array.
+            Require: smaller than O(n). e.g: [1,2,8,7,6,5,4,3], find 4<br/>
+            The first thought I came up is binary search. But it's not very clear how to binary.  <b>Struggling for a while</b>, the interviewer gave me some hints.
+        </p>
+        <ul> Three steps
+            <li>Binary for the <em>changing point</em></li>
+<pre><code>
+    int low = 0, high = arr.length-1 , mid = (low+high)/2 ;
+    while(low < high)
+    {
+        if(arr[mid-1] < arr[mid] && arr[mid] < arr[mid+1]) // left
+            low = mid+1;
+        if(arr[mid-1] > arr[mid] && arr[mid] > arr[mid+1]) // right
+            high = mid-1;
+        if(arr[mid]>arr[mid-1] && arr[mid]>arr[mid+1])
+            return mid;  // index of the biggest element
+        mid = (low+high)/2;
+    }
+
+</code></pre>
+            <li>Binary for the ascent part</li>
+            <li>Binary for the descent part</li>
+        </ul>
+
+        <hr/>
+        <p>
+            Second one: <br/>
+            Design a datastructure to implement this: <em>A speciall lottery, let's say [A,B,C,D,E] is playing it. Every round pick a random number, suppose is 4. Then A,B,C,D, eliminate D (now[A,B,C,E]). Next round, suppose 3, then E,A,B, eliminate B(now[A,C,E]. Play this until only one left</em>
+        </p>
+        <p>
+            I came up the solution very fast, <b>Circled Linked List</b>
+        </p>
+
+
+        <hr/>
+        <p>
+            After one week, I am rejected by Bloomberg. I think the reason is I didn't do very quickly on the first question. But what I did nicely
+            was I wrote down my thinking clue as comments, and explained it to the recruiter. The code I wrote on the paper is well commented
+            and the style is faily nice. So the only reason I believe is the interviewees are better than me. Because that night of Microsoft Coding
+            Competition, the second price team's girl also went to Bloomberg's interview. Maybe that's why I am rejected
+        </p>
+        <p>
+            After this rejection, I think I need to be damn good at Algorithms and Datastructure. That is the key point of getting a intern or a
+            job. Whether you get the offer, not because how you perform in the interview, the place you are in all the candidates matters.
+            So finally, try to do more algorithms. Hope next time interview, I can be better.
+        </p>
+    </div>
+
+
+
+
+
+
+    <!--Footer of the page-->
+    <hr />
+    <div class="grid_5">
+        <small>
+            <a href="Diary.html">Back</a>
+        </small>
+    </div>
+    <div class="grid_2 align_center">
+        <small>
+            <a href="http://owenying.github.io">Home</a>
+        </small>
+    </div>
+    <div class="grid_5 align_right">
+        <small>
+            <a href="#top">Top</a>
+        </small>
+    </div>
+    <div class="clear"></div>
+
+</div>
+<!-- end .container_12 -->
+</body>
+</html>
