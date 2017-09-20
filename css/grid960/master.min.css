@@ -80,7 +80,7 @@ body {
     min-width: 960px;
     background: #e3e3e3;
     color: black;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 code, pre {
@@ -401,7 +401,7 @@ h2 {
 
 h3 {
     font-size: 19px;
-    font-weight: 400
+    font-weight: 500;
 }
 
 h3, p {
@@ -421,7 +421,8 @@ hr {
 pre {
     background: #234;
     font-size: 12px;
-    padding: 10px 0 10px 15px
+    /*padding: 10px 0 10px 15px*/
+    padding: 0;
 }
 
 img {

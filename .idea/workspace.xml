@@ -2,8 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/blog/ToBeAEngineerFromScratch/Sep112017_CareerFair.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/blog/ToBeAEngineerFromScratch/Diary.html" afterPath="$PROJECT_DIR$/html/blog/ToBeAEngineerFromScratch/Diary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/brown-papersq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/pojoaque.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/school-book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/agate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/androidstudio.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/arduino-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/arta.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/ascetic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-cave-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-cave-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-dune-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-dune-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-estuary-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-estuary-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-forest-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-forest-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-heath-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-heath-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-lakeside-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-lakeside-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-plateau-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-plateau-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-savanna-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-savanna-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-seaside-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-seaside-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-sulphurpool-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atelier-sulphurpool-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atom-one-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/atom-one-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/brown-paper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/codepen-embed.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/color-brewer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/darcula.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/darkula.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/docco.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/dracula.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/far.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/github-gist.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/github.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/googlecode.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/grayscale.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/gruvbox-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/gruvbox-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/highlight.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/hopscotch.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/hybrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/idea.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/ir-black.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/kimbie.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/kimbie.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/magula.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/mono-blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/monokai-sublime.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/monokai.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/obsidian.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/ocean.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/paraiso-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/paraiso-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/pojoaque.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/purebasic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/qtcreator_dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/qtcreator_light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/railscasts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/rainbow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/routeros.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/school-book.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/solarized-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/solarized-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/sunburst.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/tomorrow-night-blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/tomorrow-night-bright.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/tomorrow-night-eighties.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/tomorrow-night.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/tomorrow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/vs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/vs2015.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/xcode.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/xt256.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles/zenburn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" afterPath="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/grid960/master.min.css" afterPath="$PROJECT_DIR$/css/grid960/master.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyBlog.iws" />
@@ -27,26 +110,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="Algorithms.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.075662">
-              <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sep112017_CareerFair.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/blog/ToBeAEngineerFromScratch/Sep112017_CareerFair.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.90625">
-              <caret line="65" column="50" selection-start-line="65" selection-start-column="50" selection-end-line="65" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.8486759">
+              <caret line="124" column="46" selection-start-line="124" selection-start-column="46" selection-end-line="124" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -83,17 +151,17 @@
         <option value="$PROJECT_DIR$/html/research/change_detection.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/Day01.html" />
-        <option value="$PROJECT_DIR$/css/grid960/master.min.css" />
         <option value="$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/OptimizeAndSolve.html" />
         <option value="$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/Frame.html" />
         <option value="$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/CrackingTheCodingInterview.html" />
         <option value="$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/Sep192017_OptimizeAndSolve.html" />
-        <option value="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
         <option value="$PROJECT_DIR$/html/blog/DataStructures/Datastructures.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/html/blog/DataStructures/DataStructures.html" />
         <option value="$PROJECT_DIR$/html/blog/ToBeAEngineerFromScratch/Diary.html" />
         <option value="$PROJECT_DIR$/html/blog/ToBeAEngineerFromScratch/Sep112017_CareerFair.html" />
+        <option value="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
+        <option value="$PROJECT_DIR$/css/grid960/master.min.css" />
       </list>
     </option>
   </component>
@@ -166,6 +234,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OwenYing.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -187,10 +269,6 @@
               <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ToBeAEngineerFromScratch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -210,7 +288,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructures" />
+              <option name="myItemId" value="Algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -224,15 +302,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CrackingTheCodingInterview" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,11 +316,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
+              <option name="myItemId" value="grid960" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -272,11 +342,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/html/blog/DataStructures" />
       <recent name="$PROJECT_DIR$/html/blog/ToBeAEngineerFromScratch" />
       <recent name="$PROJECT_DIR$/html/blog/Algorithms" />
-      <recent name="$PROJECT_DIR$/css/grid960" />
-      <recent name="$PROJECT_DIR$/cv" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/html/blog" />
@@ -284,20 +354,20 @@
       <recent name="$PROJECT_DIR$/res/img" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Diary.html">
+  <component name="RunManager" selected="JavaScript Debug.Algorithms.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyBlog/index.html">
       <method />
     </configuration>
     <configuration default="false" name="CrackingTheCodingInterview.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyBlog/html/blog/CrackingTheCodingInterview/CrackingTheCodingInterview.html">
       <method />
     </configuration>
-    <configuration default="false" name="Frame.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyBlog/html/blog/CrackingTheCodingInterview/Frame.html">
-      <method />
-    </configuration>
     <configuration default="false" name="Sep192017_OptimizeAndSolve.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyBlog/html/blog/CrackingTheCodingInterview/Sep192017_OptimizeAndSolve.html">
       <method />
     </configuration>
     <configuration default="false" name="Diary.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyBlog/html/blog/ToBeAEngineerFromScratch/Diary.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="Algorithms.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyBlog/html/blog/Algorithms/Algorithms.html">
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -423,17 +493,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.CrackingTheCodingInterview.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Frame.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Sep192017_OptimizeAndSolve.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Diary.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Sep192017_OptimizeAndSolve.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Diary.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Algorithms.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Diary.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Sep192017_OptimizeAndSolve.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.CrackingTheCodingInterview.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Frame.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Algorithms.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Diary.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Sep192017_OptimizeAndSolve.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.CrackingTheCodingInterview.html" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
@@ -464,7 +534,7 @@
       <workItem from="1505830364013" duration="1411000" />
       <workItem from="1505869848702" duration="8488000" />
       <workItem from="1505880657496" duration="624000" />
-      <workItem from="1505915488867" duration="2338000" />
+      <workItem from="1505915488867" duration="7062000" />
     </task>
     <task id="LOCAL-00001" summary="This is a try of github">
       <created>1505830494221</created>
@@ -526,17 +596,24 @@
       <option name="project" value="LOCAL" />
       <updated>1505880932282</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Diary --&gt; Sep112017_careerfair">
+      <created>1505918440724</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1505918440724</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22258000" />
+    <option name="totallyTimeSpent" value="26982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20619555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -552,7 +629,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20619555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -572,7 +648,8 @@
     <MESSAGE value="Add Algorithms, Datastructures and Diary folder" />
     <MESSAGE value="Move DataStructure folder" />
     <MESSAGE value="Fix &quot;DataStrustures&quot; to &quot;DataStructures&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix &quot;DataStrustures&quot; to &quot;DataStructures&quot;" />
+    <MESSAGE value="Diary --&gt; Sep112017_careerfair" />
+    <option name="LAST_COMMIT_MESSAGE" value="Diary --&gt; Sep112017_careerfair" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -876,13 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/grid960/master.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34867075">
-          <caret line="434" column="20" selection-start-line="434" selection-start-column="20" selection-end-line="434" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/Frame.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40983605">
@@ -906,22 +976,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/blog/ToBeAEngineerFromScratch/Diary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.346154">
-          <caret line="35" column="123" selection-start-line="35" selection-start-column="123" selection-end-line="35" selection-end-column="123" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/Sep192017_OptimizeAndSolve.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.018726591">
@@ -930,10 +984,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html/blog/ToBeAEngineerFromScratch/Diary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37453184">
+          <caret line="35" column="123" selection-start-line="35" selection-start-column="123" selection-end-line="35" selection-end-column="123" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/blog/ToBeAEngineerFromScratch/Sep112017_CareerFair.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.90625">
-          <caret line="65" column="50" selection-start-line="65" selection-start-column="50" selection-end-line="65" selection-end-column="50" />
+        <state vertical-scroll-proportion="1.7692307">
+          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -948,6 +1010,54 @@
             <element signature="n#style#0;n#i#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/highlight.pack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles/vs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="217" column="16" selection-start-line="217" selection-start-column="16" selection-end-line="217" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/grid960/master.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3709273">
+          <caret line="403" column="21" selection-start-line="403" selection-start-column="21" selection-end-line="403" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8486759">
+          <caret line="124" column="46" selection-start-line="124" selection-start-column="46" selection-end-line="124" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
