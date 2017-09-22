@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" afterPath="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyBlog.iws" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="Algorithms.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4090442">
-              <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.82733816">
+              <caret line="241" column="58" selection-start-line="241" selection-start-column="58" selection-end-line="241" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -466,7 +467,7 @@
       <workItem from="1505915488867" duration="7699000" />
       <workItem from="1505937518472" duration="5298000" />
       <workItem from="1505946721968" duration="442000" />
-      <workItem from="1506041099923" duration="1215000" />
+      <workItem from="1506041099923" duration="1370000" />
     </task>
     <task id="LOCAL-00001" summary="This is a try of github">
       <created>1505830494221</created>
@@ -594,11 +595,17 @@
       <option name="project" value="LOCAL" />
       <updated>1506043759530</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Algo-Binary Search">
+      <created>1506043790764</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1506043790764</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34574000" />
+    <option name="totallyTimeSpent" value="34729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -1014,8 +1021,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4090442">
-          <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.82733816">
+          <caret line="241" column="58" selection-start-line="241" selection-start-column="58" selection-end-line="241" selection-end-column="58" />
           <folding />
         </state>
       </provider>
