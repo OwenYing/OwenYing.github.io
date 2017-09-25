@@ -61,6 +61,30 @@
     </div>
 
 
+    <hr/>
+    <!--Grid 1-->
+    <div class="grid_12">
+        <h3>
+            Add
+        </h3>
+
+<pre><code>//Core operation
+    int carry = 0;
+    int digit = 0;
+    for(int i=0 ; i&lt;n1.length() ; i++)
+    {
+        int digitResult = oneDigitAdd(n1.charAt(i), n2.charAt(i)) + carry; //key part
+        carry = digitResult/10;
+        digit = digitResult%10;
+
+        result.append(digit);
+    }
+    result.append(carry); // append the final carry
+</code></pre>
+
+    </div>
+
+
 
 
 
