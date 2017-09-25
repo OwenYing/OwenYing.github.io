@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/CrackingTheCodingInterview.html" afterPath="$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/CrackingTheCodingInterview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/blog/Algorithms/Sep252017_LongMul.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" afterPath="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyBlog.iws" />
@@ -29,7 +30,7 @@
       <file leaf-file-name="DataStructures.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/blog/DataStructures/DataStructures.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
               <folding />
             </state>
@@ -39,18 +40,18 @@
       <file leaf-file-name="Algorithms.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state vertical-scroll-proportion="-8.291667">
+              <caret line="240" column="11" selection-start-line="240" selection-start-column="11" selection-end-line="240" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrackingTheCodingInterview.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/CrackingTheCodingInterview.html">
+      <file leaf-file-name="Sep252017_LongMul.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Sep252017_LongMul.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.828816">
-              <caret line="229" column="27" selection-start-line="229" selection-start-column="27" selection-end-line="229" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.6629834">
+              <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -95,10 +96,11 @@
         <option value="$PROJECT_DIR$/css/grid960/master.min.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/html/blog/ToBeAEngineerFromScratch/Sep132017_BloombergInterview.html" />
-        <option value="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
         <option value="$PROJECT_DIR$/html/blog/ToBeAEngineerFromScratch/Diary.html" />
         <option value="$PROJECT_DIR$/html/blog/DataStructures/DataStructures.html" />
         <option value="$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/CrackingTheCodingInterview.html" />
+        <option value="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
+        <option value="$PROJECT_DIR$/html/blog/Algorithms/Sep252017_LongMul.html" />
       </list>
     </option>
   </component>
@@ -308,7 +310,7 @@
       <recent name="$PROJECT_DIR$/res/img" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.CrackingTheCodingInterview.html">
+  <component name="RunManager" selected="JavaScript Debug.Algorithms.html">
     <configuration default="false" name="Diary.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyBlog/html/blog/ToBeAEngineerFromScratch/Diary.html">
       <method />
     </configuration>
@@ -453,8 +455,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.CrackingTheCodingInterview.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Algorithms.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Algorithms.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.CrackingTheCodingInterview.html" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.DataStructures.html" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Diary.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Sep132017_BloombergInterview.html" />
@@ -498,7 +500,8 @@
       <workItem from="1506275977751" duration="763000" />
       <workItem from="1506308140725" duration="969000" />
       <workItem from="1506309214424" duration="376000" />
-      <workItem from="1506355076919" duration="609000" />
+      <workItem from="1506355076919" duration="704000" />
+      <workItem from="1506370855953" duration="741000" />
     </task>
     <task id="LOCAL-00001" summary="This is a try of github">
       <created>1505830494221</created>
@@ -680,11 +683,17 @@
       <option name="project" value="LOCAL" />
       <updated>1506309534019</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="CTCI Graph DFS,BFS">
+      <created>1506355736978</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1506355736978</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39885000" />
+    <option name="totallyTimeSpent" value="40721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -695,7 +704,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2710552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -746,7 +755,8 @@
     <MESSAGE value="Diary: Github notebook" />
     <MESSAGE value="DataStructure: Binary Tree and Binary Heap" />
     <MESSAGE value="CTCI Binary Tree, Heap" />
-    <option name="LAST_COMMIT_MESSAGE" value="CTCI Binary Tree, Heap" />
+    <MESSAGE value="CTCI Graph DFS,BFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="CTCI Graph DFS,BFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -757,13 +767,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/blog/DataStructures/DataStructures.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/CrackingTheCodingInterview.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1025,13 +1028,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/Sep192017_OptimizeAndSolve.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.018726591">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/highlight.pack.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1105,18 +1101,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
+    <entry file="file://$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/CrackingTheCodingInterview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.69198895">
+          <caret line="235" column="0" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/CrackingTheCodingInterview.html">
+    <entry file="file://$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/Sep192017_OptimizeAndSolve.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.828816">
-          <caret line="229" column="27" selection-start-line="229" selection-start-column="27" selection-end-line="229" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.24861878">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.291667">
+          <caret line="240" column="11" selection-start-line="240" selection-start-column="11" selection-end-line="240" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Sep252017_LongMul.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6629834">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
           <folding />
         </state>
       </provider>

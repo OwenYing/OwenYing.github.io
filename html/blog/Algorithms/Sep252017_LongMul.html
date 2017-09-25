@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <title>Long Number Operation</title>
+
+    <link rel="stylesheet" href="../../../css/grid960/master.min.css" />
+    <link rel="stylesheet" href="../../../css/styles/default.css">
+    <script src="../../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+</head>
+<body>
+
+<div class="container_12" id="top">
+
+
+    <!--Title-->
+    <div class="grid_12 align_center">
+        <h4>
+            Long Number Operation <small>Sep 25, 2017</small>
+        </h4>
+    </div>
+
+    <!--Seperation Line-->
+    <hr />
+
+    <!--Grid 1-->
+    <div class="grid_12">
+        <h3>
+            Multiply
+        </h3>
+        <div class="grid_5">
+        <img src="https://drscdn.500px.org/photo/130178585/m%3D2048/300d71f784f679d5e70fadda8ad7d68f" height="310" />
+        </div>
+<pre><code>//`num1[i] * num2[j]` will be placed at indices `[i + j`, `i + j + 1]`
+
+    public String multiply(String num1, String num2) {
+        int m = num1.length(), n = num2.length();
+        int[] pos = new int[m + n];
+
+        for(int i = m - 1; i >= 0; i--) {
+            for(int j = n - 1; j >= 0; j--) {
+                int mul = (num1.charAt(i) - '0') * (num2.charAt(j) - '0');
+                int p1 = i + j, p2 = i + j + 1;
+                int sum = mul + pos[p2];
+
+                pos[p1] += sum / 10;
+                pos[p2] = (sum) % 10;
+            }
+        }
+
+        StringBuilder sb = new StringBuilder();
+        for(int p : pos) if(!(sb.length() == 0 && p == 0)) sb.append(p);
+        return sb.length() == 0 ? "0" : sb.toString();
+    }
+</code></pre>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!--Footer of the page-->
+    <hr />
+    <div class="grid_5">
+        <small>
+            <a href="CrackingTheCodingInterview.html">Back</a>;
+        </small>
+    </div>
+    <div class="grid_2 align_center">
+        <small>
+            <a href="http://owenying.github.io">Home</a>
+        </small>
+    </div>
+    <div class="grid_5 align_right">
+        <small>
+            <a href="#top">Top</a>
+        </small>
+    </div>
+    <div class="clear"></div>
+
+</div>
+<!-- end .container_12 -->
+</body>
+</html>
