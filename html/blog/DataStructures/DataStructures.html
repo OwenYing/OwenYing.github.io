@@ -7,7 +7,9 @@
     <title>Data Structures</title>
 
     <link rel="stylesheet" href="../../../css/grid960/master.min.css" />
-
+    <link rel="stylesheet" href="../../../css/styles/default.css">
+    <script src="../../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 
 </head>
 <body>
@@ -27,86 +29,58 @@
 
     <!--Grid 1-->
     <div class="grid_4">
-        <h3>   Optimize & Solve <small>Sep 19, 2017</small>  </h3>
-
-        <p>
-            BUD: <br/>
-                &nbsp;&nbsp;&nbsp;Bottleneck, &nbsp; Unnecessary work, &nbsp; Duplicated work.
-        </p>
-        <p>
-            DIY: Do It Yourself
-        </p>
-        <p>
-            Simplify and Generalize
-        </p>
-        <p>
-            Base Case and Build
-        </p>
-        <p>
-            Data Structure Brainstorm
-        </p>
-        <p>
-            <a href="Sep192017_OptimizeAndSolve.html">Read more ...</a>
-        </p>
-    </div>
-
-    <!--Grid 2-->
-    <div class="grid_4">
-        <h3>
-            Code
-        </h3>
-        <p>
-            View comprehensive code on the demo page.
-        </p>
-        <p>
-            To the right is an example of how the code works. The container specifies how many total columns exist, either 12 or 16. For the most part, you will only ever need to specify a class name of <em>grid_XX</em>, where <em>XX</em> represents the column width.
-        </p>
-        <p>
-            If a grid unit contains grid children, the first child in a row will need a class of <em>alpha</em> and the last child in a row requires the class name <em>omega</em>. Likewise, if you want to insert empty space before or after a grid unit, use class <em>prefix_XX</em> or <em>suffix_XX</em>.
-        </p>
-    </div>
-
-    <!--Grid 3-->
-    <div class="grid_4">
-        <h3>
-            Nine-Sixty
-        </h3>
-        <p>
-            All modern monitors support at least 1024 &times; 768 pixel resolution. 960 is divisible by 2, 3, 4, 5, 6, 8, 10, 12, 15, 16, 20, 24, 30, 32, 40, 48, 60, 64, 80, 96, 120, 160, 192, 240, 320 and 480. This makes it a highly flexible base number to work with.
-        </p>
-    </div>
-
-    <!--Grid 4-->
-    <!--Seperation Line-->
-    <hr />
-    <div class="grid_4">
-        <h3>
-            Plugins
-        </h3>
-        <p>
-            Web Designer Depot featured an  on writing less code by styling tags directly. Nettuts has both a tml-css-techniques/prototyping-with        </p>
+        <h3>  Binary Tree  <small>Sep 24, 2017</small>  </h3>
+<pre><code>
+    //In-Order traversal
+    void inOrderTraversal(TreeNode node)
+    {
+        if(node != null)
+        {
+            inOrderTraversal(node.left);
+            visit(node);
+            inOrderTraversal(node.right);
+        }
+    }
+    //Pre-Order traversal
+    void preOrderTraversal(TreeNode node)
+    {
+        if(node !=null )
+        {
+            visit(node);
+            preOrderTraversal(node.left);
+            preOrderTraversal(node.right);
+        }
+    }
+    //Post-Order traversal
+    void postOrderTraversal(TreeNode node)
+    {
+        if(node !=null )
+        {
+            postOrderTraversal(node.left);
+            postOrderTraversal(node.right);
+            visit(node);
+        }
+    }
+</code></pre>
     </div>
 
 
 
     <div class="grid_4">
-        <h3>
-            Tutorials
-        </h3>
+        <h3>  Binary Heaps  <small>Sep 24, 2017</small>  </h3>
         <p>
-            Web Designer Depot featured an  on writing less code by styling tags directly. Nettuts has both a tml-css-techniques/prototyping-with
+            Feature: Each node is smaller than its children. The root is the minimum element in the tree.
         </p>
+        <ul>Two key operations
+            <li>Insert:</li>
+            Insert the element at the right bottom, then compare with its parent and move the node upper.
+            <li>Extract Minimum Element:</li>
+            Remove the element in the root, move the last element to the root, bubble down this element if it is bigger than its children.
+            If both of its children are smaller than it, swap with the smaller one.
+        </ul>
     </div>
 
 
-
-    <div class="grid_4">
-        <h3>
-            Derivatives
-        </h3>
-        <p>
-            Web Designer Depot featured an  on writing less code by styling tags directly. Nettuts has both a tml-css-techniques/prototyping-with        </p>
-    </div>
 
 
 
