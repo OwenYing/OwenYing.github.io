@@ -187,6 +187,51 @@
     </div>
 
 
+    <hr/>
+    <div class="grid_4">
+        <h3>  Graphs  <small>Sep 25, 2017</small>  </h3>
+<pre><code>
+    //DFS
+    void search(Node root)
+    {
+        if(root == null) return;
+        visit(root);
+        root.visited = true;
+
+        for each (Node n in root.adjacent)
+        {
+            if(n.visited == false)
+                search(n);
+        }
+    }
+    //BFS: queue
+    void search(Node root)
+    {
+        Queue queue = new Queue();
+        root.marked = true;
+        queue.enqueue(root); // Add to the end of the queue
+
+        while(!queue.isEmpty())
+        {
+            Node r = queue.dequeue(); //Remove from the front of the queue
+            visit(r);
+            foreach(Node n in r.adjacent)
+            {
+                if(n.marked == false)
+                {
+                    n.marked = true;
+                    queue.enqueue(n);
+                }
+            }
+        }
+    }
+    //Bidirectional Search: Find shortest path
+    //Running two simultaneous BFS, when their searches collide
+    //we have found a path.
+</code></pre>
+    </div>
+
+
 
 
 
