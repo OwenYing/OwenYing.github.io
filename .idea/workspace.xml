@@ -29,7 +29,7 @@
       <file leaf-file-name="CrackingTheCodingInterview.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/CrackingTheCodingInterview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.625">
+            <state vertical-scroll-proportion="0.0">
               <caret line="266" column="61" selection-start-line="266" selection-start-column="61" selection-end-line="266" selection-end-column="61" />
               <folding />
             </state>
@@ -39,8 +39,8 @@
       <file leaf-file-name="Algorithms.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8756906">
-              <caret line="273" column="0" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.61452514">
+              <caret line="275" column="24" selection-start-line="275" selection-start-column="24" selection-end-line="275" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -135,7 +135,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -272,8 +271,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -496,7 +496,8 @@
       <workItem from="1506370855953" duration="823000" />
       <workItem from="1506371917241" duration="319000" />
       <workItem from="1506647772283" duration="1446000" />
-      <workItem from="1507317044350" duration="185000" />
+      <workItem from="1507317044350" duration="214000" />
+      <workItem from="1508028636398" duration="193000" />
     </task>
     <task id="LOCAL-00001" summary="This is a try of github">
       <created>1505830494221</created>
@@ -702,11 +703,17 @@
       <option name="project" value="LOCAL" />
       <updated>1506648791466</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="CTCI Bit Operation">
+      <created>1507317240530</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1507317240530</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42753000" />
+    <option name="totallyTimeSpent" value="42975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -861,13 +868,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/css">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/img/portrait.jpg">
@@ -1132,7 +1139,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/CrackingTheCodingInterview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.625">
+        <state vertical-scroll-proportion="0.0">
           <caret line="266" column="61" selection-start-line="266" selection-start-column="61" selection-end-line="266" selection-end-column="61" />
           <folding />
         </state>
@@ -1140,8 +1147,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8756906">
-          <caret line="273" column="0" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.61452514">
+          <caret line="275" column="24" selection-start-line="275" selection-start-column="24" selection-end-line="275" selection-end-column="24" />
           <folding />
         </state>
       </provider>
