@@ -39,8 +39,8 @@
       <file leaf-file-name="Algorithms.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61452514">
-              <caret line="275" column="24" selection-start-line="275" selection-start-column="24" selection-end-line="275" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.5441989">
+              <caret line="284" column="0" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -135,6 +135,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,8 +273,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -497,7 +497,8 @@
       <workItem from="1506371917241" duration="319000" />
       <workItem from="1506647772283" duration="1446000" />
       <workItem from="1507317044350" duration="214000" />
-      <workItem from="1508028636398" duration="193000" />
+      <workItem from="1508028636398" duration="227000" />
+      <workItem from="1508352232969" duration="249000" />
     </task>
     <task id="LOCAL-00001" summary="This is a try of github">
       <created>1505830494221</created>
@@ -709,11 +710,17 @@
       <option name="project" value="LOCAL" />
       <updated>1507317240530</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Algo DP-Unique Path">
+      <created>1508028850352</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1508028850352</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42975000" />
+    <option name="totallyTimeSpent" value="43258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -779,7 +786,8 @@
     <MESSAGE value="Algo long number mul" />
     <MESSAGE value="Algo long number add" />
     <MESSAGE value="CTCI Bit Operation" />
-    <option name="LAST_COMMIT_MESSAGE" value="CTCI Bit Operation" />
+    <MESSAGE value="Algo DP-Unique Path" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algo DP-Unique Path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -868,13 +876,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/css">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/img/portrait.jpg">
@@ -1147,8 +1155,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61452514">
-          <caret line="275" column="24" selection-start-line="275" selection-start-column="24" selection-end-line="275" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.5441989">
+          <caret line="284" column="0" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
           <folding />
         </state>
       </provider>
