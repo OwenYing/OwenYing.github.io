@@ -2,23 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20130911.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20130918.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20131013.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20131020.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20131026.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20131102.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20131111.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20131217.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20140315.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20140419.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20140427.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20140429.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20140511.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20140511.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20140520.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20140531.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/TheDaysWithYou/photo/1.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20140630.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20140708.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20140730.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20140826.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20140828.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20140905.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20140906.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20140911.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20141118.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20141231.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20150429.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/TheDaysWithYou/Days.html" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/Days.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -46,8 +40,8 @@
       <file leaf-file-name="Days.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/TheDaysWithYou/Days.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72239745">
-              <caret line="151" column="44" selection-start-line="151" selection-start-column="44" selection-end-line="151" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.7570978">
+              <caret line="233" column="73" selection-start-line="233" selection-start-column="73" selection-end-line="233" selection-end-column="73" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#head#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -465,7 +459,7 @@
       <workItem from="1507317044350" duration="214000" />
       <workItem from="1508028636398" duration="227000" />
       <workItem from="1508352232969" duration="338000" />
-      <workItem from="1509389162905" duration="4269000" />
+      <workItem from="1509389162905" duration="5696000" />
     </task>
     <task id="LOCAL-00001" summary="This is a try of github">
       <created>1505830494221</created>
@@ -695,11 +689,17 @@
       <option name="project" value="LOCAL" />
       <updated>1509390698302</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="DaysWithMySweet">
+      <created>1509395261979</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1509395261980</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47616000" />
+    <option name="totallyTimeSpent" value="49043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -1131,8 +1131,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/TheDaysWithYou/Days.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72239745">
-          <caret line="151" column="44" selection-start-line="151" selection-start-column="44" selection-end-line="151" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.7570978">
+          <caret line="233" column="73" selection-start-line="233" selection-start-column="73" selection-end-line="233" selection-end-column="73" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#head#0;n#html#0;n#!!top" expanded="true" />
           </folding>
