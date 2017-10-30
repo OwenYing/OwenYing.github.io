@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/Days.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/timeline.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" afterPath="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,19 +32,31 @@
       <file leaf-file-name="CrackingTheCodingInterview.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/CrackingTheCodingInterview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="266" column="61" selection-start-line="266" selection-start-column="61" selection-end-line="266" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Algorithms.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Algorithms.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5441989">
-              <caret line="284" column="0" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.625">
+              <caret line="9" column="66" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="66" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Days.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/TheDaysWithYou/Days.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42956764">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,6 +67,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Html5" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -90,6 +106,8 @@
         <option value="$PROJECT_DIR$/html/blog/Algorithms/Sep252017_LongMul.html" />
         <option value="$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/CrackingTheCodingInterview.html" />
         <option value="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
+        <option value="$PROJECT_DIR$/html/TheDaysWithYou/timeline.css" />
+        <option value="$PROJECT_DIR$/html/TheDaysWithYou/Days.html" />
       </list>
     </option>
   </component>
@@ -135,8 +153,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,26 +198,8 @@
               <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyBlog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OwenYing.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ToBeAEngineerFromScratch" />
+              <option name="myItemId" value="TheDaysWithYou" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -219,33 +217,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
+              <option name="myItemId" value="TheDaysWithYou" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBlog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OwenYing.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CrackingTheCodingInterview" />
+              <option name="myItemId" value="photo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -260,20 +236,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -287,14 +257,15 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html/TheDaysWithYou/photo" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/html/blog/DataStructures" />
       <recent name="$PROJECT_DIR$/html/blog/ToBeAEngineerFromScratch" />
-      <recent name="$PROJECT_DIR$/html/blog/Algorithms" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/html/blog" />
@@ -302,10 +273,7 @@
       <recent name="$PROJECT_DIR$/res/img" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Algorithms.html">
-    <configuration default="false" name="Diary.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyBlog/html/blog/ToBeAEngineerFromScratch/Diary.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.Days.html">
     <configuration default="false" name="Algorithms.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyBlog/html/blog/Algorithms/Algorithms.html">
       <method />
     </configuration>
@@ -316,6 +284,9 @@
       <method />
     </configuration>
     <configuration default="false" name="Sep252017_LongMul.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyBlog/html/blog/Algorithms/Sep252017_LongMul.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="Days.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyBlog/html/TheDaysWithYou/Days.html">
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -439,19 +410,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Diary.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Algorithms.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.CrackingTheCodingInterview.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.DataStructures.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Sep252017_LongMul.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Algorithms.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.CrackingTheCodingInterview.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.DataStructures.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Sep252017_LongMul.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Days.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Algorithms.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.CrackingTheCodingInterview.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Sep252017_LongMul.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.DataStructures.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Diary.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Days.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Algorithms.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.CrackingTheCodingInterview.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Sep252017_LongMul.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.DataStructures.html" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
@@ -498,7 +469,8 @@
       <workItem from="1506647772283" duration="1446000" />
       <workItem from="1507317044350" duration="214000" />
       <workItem from="1508028636398" duration="227000" />
-      <workItem from="1508352232969" duration="249000" />
+      <workItem from="1508352232969" duration="338000" />
+      <workItem from="1509389162905" duration="1337000" />
     </task>
     <task id="LOCAL-00001" summary="This is a try of github">
       <created>1505830494221</created>
@@ -716,11 +688,17 @@
       <option name="project" value="LOCAL" />
       <updated>1508028850352</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Algo DP- Min Edit Distance">
+      <created>1508352507475</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1508352507475</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43258000" />
+    <option name="totallyTimeSpent" value="44684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -762,7 +740,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="This is a try of github" />
     <MESSAGE value="Add new folders in blog" />
     <MESSAGE value="Finish Blog web framework with 960 grid" />
     <MESSAGE value="Blog-CTCI-Sep192017" />
@@ -787,7 +764,8 @@
     <MESSAGE value="Algo long number add" />
     <MESSAGE value="CTCI Bit Operation" />
     <MESSAGE value="Algo DP-Unique Path" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algo DP-Unique Path" />
+    <MESSAGE value="Algo DP- Min Edit Distance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algo DP- Min Edit Distance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -798,20 +776,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/CrackingTheCodingInterview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/blog/ToBeAEngineerFromScratch/Diary.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -876,13 +840,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/css">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/img/portrait.jpg">
@@ -1155,9 +1119,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5441989">
-          <caret line="284" column="0" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="9" column="66" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="66" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/TheDaysWithYou/timeline.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3328877">
+          <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/TheDaysWithYou/Days.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42956764">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
