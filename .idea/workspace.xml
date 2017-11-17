@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20170327.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20170328.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20170329.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20170403.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20170404.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20170405.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20170406.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20170414.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20170417.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20170418.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20170425.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20170818.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20170821.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20170829.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20170902.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20170903.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20170908.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20170909.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20170912.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20170927.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20171004.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20171005.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/201710055.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20171006.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20171007.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20171016.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20171020.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20171024.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20171028.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20171029.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/photo/20171030.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/TheDaysWithYou/Days.html" afterPath="$PROJECT_DIR$/html/TheDaysWithYou/Days.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" afterPath="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyBlog.iws" />
@@ -57,15 +26,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Days.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/TheDaysWithYou/Days.html">
+      <file leaf-file-name="Algorithms.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6395469">
-              <caret line="885" column="40" selection-start-line="885" selection-start-column="40" selection-end-line="885" selection-end-column="40" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#head#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#2;n#div#0;n#div#32;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.3428864">
+              <caret line="294" column="68" selection-start-line="294" selection-start-column="68" selection-end-line="294" selection-end-column="68" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,9 +80,9 @@
         <option value="$PROJECT_DIR$/html/blog/DataStructures/DataStructures.html" />
         <option value="$PROJECT_DIR$/html/blog/Algorithms/Sep252017_LongMul.html" />
         <option value="$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/CrackingTheCodingInterview.html" />
-        <option value="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
         <option value="$PROJECT_DIR$/html/TheDaysWithYou/timeline.css" />
         <option value="$PROJECT_DIR$/html/TheDaysWithYou/Days.html" />
+        <option value="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
       </list>
     </option>
   </component>
@@ -162,8 +128,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,12 +191,22 @@
               <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TheDaysWithYou" />
+              <option name="myItemId" value="MyBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OwenYing.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="photo" />
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -249,10 +223,56 @@
               <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CrackingTheCodingInterview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OwenYing.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OwenYing.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,7 +303,7 @@
       <recent name="$PROJECT_DIR$/res/img" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Days.html">
+  <component name="RunManager" selected="JavaScript Debug.Algorithms.html">
     <configuration default="false" name="Algorithms.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyBlog/html/blog/Algorithms/Algorithms.html">
       <method />
     </configuration>
@@ -428,8 +448,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Days.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Algorithms.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Algorithms.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Days.html" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.CrackingTheCodingInterview.html" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Sep252017_LongMul.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.DataStructures.html" />
@@ -481,7 +501,11 @@
       <workItem from="1508028636398" duration="227000" />
       <workItem from="1508352232969" duration="338000" />
       <workItem from="1509389162905" duration="5724000" />
-      <workItem from="1509404691356" duration="9027000" />
+      <workItem from="1509404691356" duration="9122000" />
+      <workItem from="1510187590757" duration="30000" />
+      <workItem from="1510187958786" duration="583000" />
+      <workItem from="1510188621850" duration="454000" />
+      <workItem from="1510946786389" duration="192000" />
     </task>
     <task id="LOCAL-00001" summary="This is a try of github">
       <created>1505830494221</created>
@@ -735,18 +759,23 @@
       <option name="project" value="LOCAL" />
       <updated>1509415723835</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="DaysWithMySweet">
+      <created>1509417307983</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1509417307983</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58098000" />
+    <option name="totallyTimeSpent" value="59452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20619555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -762,6 +791,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20619555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1121,25 +1151,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18646409">
-          <caret line="9" column="66" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/CrackingTheCodingInterview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12983425">
-          <caret line="266" column="61" selection-start-line="266" selection-start-column="61" selection-end-line="266" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/TheDaysWithYou/timeline.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.2352941">
           <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1163,14 +1178,30 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/CrackingTheCodingInterview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/TheDaysWithYou/Days.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6395469">
+        <state vertical-scroll-proportion="0.7859327">
           <caret line="885" column="40" selection-start-line="885" selection-start-column="40" selection-end-line="885" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#head#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#2;n#div#0;n#div#32;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3428864">
+          <caret line="294" column="68" selection-start-line="294" selection-start-column="68" selection-end-line="294" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
     </entry>
