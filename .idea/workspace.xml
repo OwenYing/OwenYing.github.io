@@ -29,8 +29,8 @@
       <file leaf-file-name="Algorithms.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57186544">
-              <caret line="335" column="82" selection-start-line="335" selection-start-column="82" selection-end-line="335" selection-end-column="82" />
+            <state vertical-scroll-proportion="0.6330275">
+              <caret line="358" column="72" selection-start-line="358" selection-start-column="72" selection-end-line="358" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -508,7 +508,7 @@
       <workItem from="1510946786389" duration="339000" />
       <workItem from="1510954698466" duration="305000" />
       <workItem from="1510977293250" duration="421000" />
-      <workItem from="1511121138142" duration="124000" />
+      <workItem from="1511121138142" duration="496000" />
     </task>
     <task id="LOCAL-00001" summary="This is a try of github">
       <created>1505830494221</created>
@@ -786,17 +786,24 @@
       <option name="project" value="LOCAL" />
       <updated>1510977548460</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Tree recursive">
+      <created>1511121285929</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1511121285929</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60449000" />
+    <option name="totallyTimeSpent" value="60821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20619555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -812,7 +819,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20619555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -832,7 +838,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Algorithms, Datastructures and Diary folder" />
     <MESSAGE value="Move DataStructure folder" />
     <MESSAGE value="Fix &quot;DataStrustures&quot; to &quot;DataStructures&quot;" />
     <MESSAGE value="Diary --&gt; Sep112017_careerfair" />
@@ -857,7 +862,8 @@
     <MESSAGE value="InterLeave String" />
     <MESSAGE value="Construct Binary Tree from preorder and inorder traverse" />
     <MESSAGE value="Reference passing vs. Value passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reference passing vs. Value passing" />
+    <MESSAGE value="Tree recursive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tree recursive" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1215,8 +1221,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57186544">
-          <caret line="335" column="82" selection-start-line="335" selection-start-column="82" selection-end-line="335" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.6330275">
+          <caret line="358" column="72" selection-start-line="358" selection-start-column="72" selection-end-line="358" selection-end-column="72" />
           <folding />
         </state>
       </provider>
