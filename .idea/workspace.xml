@@ -29,8 +29,8 @@
       <file leaf-file-name="Algorithms.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41896024">
-              <caret line="320" column="57" selection-start-line="320" selection-start-column="57" selection-end-line="320" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.57186544">
+              <caret line="335" column="82" selection-start-line="335" selection-start-column="82" selection-end-line="335" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -129,7 +129,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -272,7 +272,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -507,7 +507,8 @@
       <workItem from="1510188621850" duration="454000" />
       <workItem from="1510946786389" duration="339000" />
       <workItem from="1510954698466" duration="305000" />
-      <workItem from="1510977293250" duration="221000" />
+      <workItem from="1510977293250" duration="421000" />
+      <workItem from="1511121138142" duration="124000" />
     </task>
     <task id="LOCAL-00001" summary="This is a try of github">
       <created>1505830494221</created>
@@ -779,11 +780,17 @@
       <option name="project" value="LOCAL" />
       <updated>1510954915616</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Reference passing vs. Value passing">
+      <created>1510977548460</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1510977548460</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60125000" />
+    <option name="totallyTimeSpent" value="60449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -825,7 +832,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Blog-CTCI-Sep192017 add content" />
     <MESSAGE value="Add Algorithms, Datastructures and Diary folder" />
     <MESSAGE value="Move DataStructure folder" />
     <MESSAGE value="Fix &quot;DataStrustures&quot; to &quot;DataStructures&quot;" />
@@ -850,7 +856,8 @@
     <MESSAGE value="DaysWithMySweet" />
     <MESSAGE value="InterLeave String" />
     <MESSAGE value="Construct Binary Tree from preorder and inorder traverse" />
-    <option name="LAST_COMMIT_MESSAGE" value="Construct Binary Tree from preorder and inorder traverse" />
+    <MESSAGE value="Reference passing vs. Value passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reference passing vs. Value passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -897,13 +904,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/css">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/img/portrait.jpg">
@@ -1208,8 +1215,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41896024">
-          <caret line="320" column="57" selection-start-line="320" selection-start-column="57" selection-end-line="320" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.57186544">
+          <caret line="335" column="82" selection-start-line="335" selection-start-column="82" selection-end-line="335" selection-end-column="82" />
           <folding />
         </state>
       </provider>
