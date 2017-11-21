@@ -372,7 +372,22 @@ return low;
         </ul>
 
     </div>
-    
+
+    <hr/>
+    <div class="grid_4">
+        <h3> Iterate HashMap <small>Sep 20, 2017</small>  </h3>
+<pre><code>
+public static void printMap(Map mp) {
+    Iterator it = mp.entrySet().iterator();
+    while (it.hasNext()) {
+        Map.Entry pair = (Map.Entry)it.next();
+        System.out.println(pair.getKey() + " = " + pair.getValue());
+        it.remove(); // avoids a ConcurrentModificationException
+    }
+}
+</code></pre>
+
+    </div>
 
 
 <!--=====================================================Footer====================================-->
