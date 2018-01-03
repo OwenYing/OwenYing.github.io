@@ -390,6 +390,20 @@ public static void printMap(Map mp) {
     </div>
 
 
+    <div class="grid_4">
+        <h3> Tree Leaves <small>Jan 3, 2018</small>  </h3>
+<pre><code>// if mentioned leaves, must be root.left == null && root.right == null
+// plus    an operation on this node
+if(root.left == null && root.right == null) { //leaf
+    step = step + "->" +root.val;             //operation on this node
+    result.add(step.substring(2, step.length()));
+    return;
+}
+</code></pre>
+
+    </div>
+
+
 <!--=====================================================Footer====================================-->
     <!--Footer of the page-->
     <hr />
