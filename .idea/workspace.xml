@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" afterPath="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyBlog.iws" />
@@ -26,11 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Algorithms.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Algorithms.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3490566">
-              <caret line="265" column="12" selection-start-line="265" selection-start-column="12" selection-end-line="265" selection-end-column="12" />
+            <state vertical-scroll-proportion="-12.5">
+              <caret line="285" column="13" selection-start-line="285" selection-start-column="13" selection-end-line="285" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5963303">
+              <caret line="231" column="98" selection-start-line="231" selection-start-column="98" selection-end-line="231" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -81,8 +91,8 @@
         <option value="$PROJECT_DIR$/html/blog/CrackingTheCodingInterview/CrackingTheCodingInterview.html" />
         <option value="$PROJECT_DIR$/html/TheDaysWithYou/timeline.css" />
         <option value="$PROJECT_DIR$/html/TheDaysWithYou/Days.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -128,7 +138,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,8 +283,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,7 +313,7 @@
       <recent name="$PROJECT_DIR$/res/img" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Algorithms.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="Algorithms.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyBlog/html/blog/Algorithms/Algorithms.html">
       <method />
     </configuration>
@@ -448,8 +458,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Algorithms.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Algorithms.html" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Days.html" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.CrackingTheCodingInterview.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Sep252017_LongMul.html" />
@@ -513,13 +523,8 @@
       <workItem from="1514930409268" duration="499000" />
       <workItem from="1515009242249" duration="358000" />
       <workItem from="1515011174866" duration="322000" />
-      <workItem from="1515259334695" duration="134000" />
-    </task>
-    <task id="LOCAL-00004" summary="Blog-CTCI-Sep192017">
-      <created>1505876048569</created>
-      <option name="number" value="00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1505876048570</updated>
+      <workItem from="1515259334695" duration="306000" />
+      <workItem from="1515351574263" duration="117000" />
     </task>
     <task id="LOCAL-00005" summary="Blog-CTCI-Sep192017 add content">
       <created>1505878823272</created>
@@ -809,11 +814,17 @@
       <option name="project" value="LOCAL" />
       <updated>1515009468203</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="update backtracking">
+      <created>1515259488763</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1515259488770</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62962000" />
+    <option name="totallyTimeSpent" value="63251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -855,7 +866,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Diary:Sep132017_Bloomberg_Interview" />
     <MESSAGE value="CTCI--BCR" />
     <MESSAGE value="Algo-Binary Search" />
     <MESSAGE value="CTCI-Arrays and String, Linked Lists, Stacks and Queues" />
@@ -880,7 +890,8 @@
     <MESSAGE value="Iterate HashMap" />
     <MESSAGE value="Add Grades" />
     <MESSAGE value="Add Tree Leaves in Algo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Tree Leaves in Algo" />
+    <MESSAGE value="update backtracking" />
+    <option name="LAST_COMMIT_MESSAGE" value="update backtracking" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1229,17 +1240,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="361" column="44" selection-start-line="361" selection-start-column="44" selection-end-line="361" selection-end-column="44" />
+        <state vertical-scroll-proportion="-12.5">
+          <caret line="285" column="13" selection-start-line="285" selection-start-column="13" selection-end-line="285" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3490566">
-          <caret line="265" column="12" selection-start-line="265" selection-start-column="12" selection-end-line="265" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.5963303">
+          <caret line="231" column="98" selection-start-line="231" selection-start-column="98" selection-end-line="231" selection-end-column="98" />
           <folding />
         </state>
       </provider>
