@@ -417,6 +417,18 @@ if(root.left == null && root.right == null) { //leaf
 
     </div>
 
+    <hr/>
+    <div class="grid_4">
+        <h3> Tree Height <small>Jan 8, 2018</small>  </h3>
+<pre><code>// Base case return -1
+int treeHeight(TreeNode root) {
+    if(root == null)    return -1;
+    return Math.max(treeHeight(root.left), treeHeight(root.right)) + 1;
+}
+</code></pre>
+
+    </div>
+
 
 <!--=====================================================Footer====================================-->
     <!--Footer of the page-->
