@@ -29,8 +29,8 @@
       <file leaf-file-name="Algorithms.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49541286">
-              <caret line="410" column="42" selection-start-line="410" selection-start-column="42" selection-end-line="410" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.4648318">
+              <caret line="426" column="1" selection-start-line="426" selection-start-column="1" selection-end-line="426" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -128,8 +128,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -515,13 +515,8 @@
       <workItem from="1515011174866" duration="322000" />
       <workItem from="1515259334695" duration="306000" />
       <workItem from="1515351574263" duration="142000" />
-      <workItem from="1515465487315" duration="177000" />
-    </task>
-    <task id="LOCAL-00006" summary="Add Algorithms, Datastructures and Diary folder">
-      <created>1505879934926</created>
-      <option name="number" value="00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1505879934926</updated>
+      <workItem from="1515465487315" duration="370000" />
+      <workItem from="1515547544204" duration="131000" />
     </task>
     <task id="LOCAL-00007" summary="Add Algorithms, Datastructures and Diary folder">
       <created>1505880064097</created>
@@ -811,11 +806,17 @@
       <option name="project" value="LOCAL" />
       <updated>1515351705219</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Leetcode problems classified by company">
+      <created>1515465680479</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1515465680480</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63453000" />
+    <option name="totallyTimeSpent" value="63777000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -1235,14 +1236,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5045872">
           <caret line="264" column="63" selection-start-line="264" selection-start-column="63" selection-end-line="264" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49541286">
-          <caret line="410" column="42" selection-start-line="410" selection-start-column="42" selection-end-line="410" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.4648318">
+          <caret line="426" column="1" selection-start-line="426" selection-start-column="1" selection-end-line="426" selection-end-column="1" />
           <folding />
         </state>
       </provider>
