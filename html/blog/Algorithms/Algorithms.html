@@ -439,6 +439,25 @@ int treeHeight(TreeNode root) {
 
     </div>
 
+    <div class="grid_4">
+        <h3> Count Set Bits of Integer<small>Jan 18, 2018</small>  </h3>
+        <ul>
+            <li>Brian Kernighan's Algorithm</li>
+            <li><a href="https://leetcode.com/problems/bitwise-and-of-numbers-range/description/">Question</a></li>
+        </ul>
+
+<pre><code> // O(log(n))
+int count_set_bits(int n){
+    int count = 0; // count accumulates the total bits set
+    while(n != 0){
+        n &= (n-1); // clear the least significant bit set
+        count++;
+    }
+}
+</code></pre>
+
+    </div>
+
 
 <!--=====================================================Footer====================================-->
     <!--Footer of the page-->
