@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/blog/DataStructures/DataStructures.html" afterPath="$PROJECT_DIR$/html/blog/DataStructures/DataStructures.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" afterPath="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyBlog.iws" />
@@ -26,21 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Algorithms.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Algorithms.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="458" column="10" selection-start-line="441" selection-start-column="4" selection-end-line="458" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataStructures.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/blog/DataStructures/DataStructures.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.051987767">
-              <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.7706422">
+              <caret line="469" column="39" selection-start-line="469" selection-start-column="39" selection-end-line="469" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -91,8 +81,8 @@
         <option value="$PROJECT_DIR$/html/TheDaysWithYou/timeline.css" />
         <option value="$PROJECT_DIR$/html/TheDaysWithYou/Days.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
         <option value="$PROJECT_DIR$/html/blog/DataStructures/DataStructures.html" />
+        <option value="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
       </list>
     </option>
   </component>
@@ -139,6 +129,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -303,8 +295,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,7 +325,7 @@
       <recent name="$PROJECT_DIR$/res/img" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.DataStructures.html">
+  <component name="RunManager" selected="JavaScript Debug.Algorithms.html">
     <configuration default="false" name="Algorithms.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyBlog/html/blog/Algorithms/Algorithms.html">
       <method />
     </configuration>
@@ -480,8 +470,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.DataStructures.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Algorithms.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Algorithms.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.DataStructures.html" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Days.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.CrackingTheCodingInterview.html" />
@@ -551,13 +541,8 @@
       <workItem from="1515547544204" duration="174000" />
       <workItem from="1516288999841" duration="321000" />
       <workItem from="1516551597825" duration="268000" />
-      <workItem from="1516678935698" duration="18000" />
-    </task>
-    <task id="LOCAL-00009" summary="Fix &quot;DataStrustures&quot; to &quot;DataStructures&quot;">
-      <created>1505880857715</created>
-      <option name="number" value="00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1505880857715</updated>
+      <workItem from="1516678935698" duration="636000" />
+      <workItem from="1517114906419" duration="667000" />
     </task>
     <task id="LOCAL-00010" summary="Fix &quot;DataStrustures&quot; to &quot;DataStructures&quot;">
       <created>1505880932282</created>
@@ -847,11 +832,17 @@
       <option name="project" value="LOCAL" />
       <updated>1516289301306</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Trie">
+      <created>1516678973152</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1516678973158</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64427000" />
+    <option name="totallyTimeSpent" value="65712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -863,22 +854,22 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1671875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20619555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32913843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -893,7 +884,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CTCI-LinkedList in java" />
     <MESSAGE value="Algo - Recursive thinking" />
     <MESSAGE value="Diary: Github notebook" />
     <MESSAGE value="DataStructure: Binary Tree and Binary Heap" />
@@ -918,7 +908,8 @@
     <MESSAGE value="Leetcode problems classified by company" />
     <MESSAGE value="Traverse Tree Iteratively" />
     <MESSAGE value="Count set bits in an integer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Count set bits in an integer" />
+    <MESSAGE value="Trie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trie" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1267,18 +1258,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="458" column="10" selection-start-line="441" selection-start-column="4" selection-end-line="458" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/blog/DataStructures/DataStructures.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.051987767">
           <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7706422">
+          <caret line="469" column="39" selection-start-line="469" selection-start-column="39" selection-end-line="469" selection-end-column="39" />
           <folding />
         </state>
       </provider>
