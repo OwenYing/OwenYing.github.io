@@ -479,6 +479,34 @@ int count_set_bits(int n){
     </div>
 
 
+    <div class="grid_4">
+        <h3> DFS Template <small>Jan 31, 2018</small>  </h3>
+
+<pre><code> // DFS
+boolean dfs(int[][] n, boolean[][] visited, int row, int col){
+    if(...)
+        return true;
+    if(row < 0 || col < 0 || row >= board.length || col >= board[0].length || visited[row][col])
+        return false;
+    if(condition) {
+        visited[row][col] = true; // make it visited
+        boolean found = dfs(n, visited, row + 1, col);
+        found |= dfs(n, visited, row - 1, col);
+        found |= dfs(n, visited, row, col + 1);
+        found |= dfs(n, visited, row, col - 1);
+        if(!found)
+            visited[row][col] = false; // if unsucessuful, turn visited back
+    }
+}
+</code></pre>
+
+        <ul>
+            <li><a href="https://leetcode.com/problems/word-search-ii/description/">Question</a></li>
+        </ul>
+
+    </div>
+
+
 <!--=====================================================Footer====================================-->
     <!--Footer of the page-->
     <hr />

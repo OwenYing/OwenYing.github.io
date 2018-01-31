@@ -29,8 +29,8 @@
       <file leaf-file-name="Algorithms.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7706422">
-              <caret line="469" column="39" selection-start-line="469" selection-start-column="39" selection-end-line="469" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.58801496">
+              <caret line="487" column="19" selection-start-line="487" selection-start-column="19" selection-end-line="487" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -101,9 +101,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1920" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -128,9 +127,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -295,6 +292,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -542,13 +541,8 @@
       <workItem from="1516288999841" duration="321000" />
       <workItem from="1516551597825" duration="268000" />
       <workItem from="1516678935698" duration="636000" />
-      <workItem from="1517114906419" duration="667000" />
-    </task>
-    <task id="LOCAL-00010" summary="Fix &quot;DataStrustures&quot; to &quot;DataStructures&quot;">
-      <created>1505880932282</created>
-      <option name="number" value="00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1505880932282</updated>
+      <workItem from="1517114906419" duration="705000" />
+      <workItem from="1517408405892" duration="688000" />
     </task>
     <task id="LOCAL-00011" summary="Diary --&gt; Sep112017_careerfair">
       <created>1505918440724</created>
@@ -838,14 +832,20 @@
       <option name="project" value="LOCAL" />
       <updated>1516678973158</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Topological Sort">
+      <created>1517115674217</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1517115674220</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65712000" />
+    <option name="totallyTimeSpent" value="66438000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -857,7 +857,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15208334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -884,7 +884,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Algo - Recursive thinking" />
     <MESSAGE value="Diary: Github notebook" />
     <MESSAGE value="DataStructure: Binary Tree and Binary Heap" />
     <MESSAGE value="CTCI Binary Tree, Heap" />
@@ -909,7 +908,8 @@
     <MESSAGE value="Traverse Tree Iteratively" />
     <MESSAGE value="Count set bits in an integer" />
     <MESSAGE value="Trie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trie" />
+    <MESSAGE value="Topological Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topological Sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1262,14 +1262,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.051987767">
           <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7706422">
-          <caret line="469" column="39" selection-start-line="469" selection-start-column="39" selection-end-line="469" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.58801496">
+          <caret line="487" column="19" selection-start-line="487" selection-start-column="19" selection-end-line="487" selection-end-column="19" />
           <folding />
         </state>
       </provider>
