@@ -521,6 +521,25 @@ boolean dfs(int[][] n, boolean[][] visited, int row, int col){
 
     <hr/>
 
+    <div class="grid_4">
+        <h3> Check Parentheses <small>August 7, 2018</small>  </h3>
+<pre><code>// Count left ( then pair it with )
+public boolean isValid(StringBuffer str) {
+    int count = 0;
+    for(int i = 0; i < str.length(); i++) {
+        if(str.charAt(i) == '(')
+            count ++;
+        else if(str.charAt(i) == ')')
+            count --;
+        if(count < 0)
+            return false;
+    }
+    return count == 0;
+}
+</code></pre>
+
+    </div>
+
 
 
 <!--=====================================================Footer====================================-->
