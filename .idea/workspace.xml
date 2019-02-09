@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.8249744">
-              <caret line="336" column="124" selection-start-line="336" selection-start-column="124" selection-end-line="336" selection-end-column="124" />
+              <caret line="402" column="28" selection-start-line="402" selection-start-column="28" selection-end-line="402" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -569,13 +569,7 @@
       <workItem from="1521058322144" duration="1128000" />
       <workItem from="1533142725462" duration="525000" />
       <workItem from="1533655727693" duration="688000" />
-      <workItem from="1549678779242" duration="2069000" />
-    </task>
-    <task id="LOCAL-00021" summary="Algo-Binary Search">
-      <created>1506043759530</created>
-      <option name="number" value="00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1506043759530</updated>
+      <workItem from="1549678779242" duration="2317000" />
     </task>
     <task id="LOCAL-00022" summary="Algo-Binary Search">
       <created>1506043790764</created>
@@ -865,11 +859,17 @@
       <option name="project" value="LOCAL" />
       <updated>1549680480681</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Update Algorithm   check parentheses">
+      <created>1549680883787</created>
+      <option name="number" value="00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1549680883787</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72706000" />
+    <option name="totallyTimeSpent" value="72954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-112" width="1920" height="1080" extended-state="0" />
@@ -1296,7 +1296,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8249744">
-          <caret line="336" column="124" selection-start-line="336" selection-start-column="124" selection-end-line="336" selection-end-column="124" />
+          <caret line="402" column="28" selection-start-line="402" selection-start-column="28" selection-end-line="402" selection-end-column="28" />
           <folding />
         </state>
       </provider>
