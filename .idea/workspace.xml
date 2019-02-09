@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyBlog.iws" />
@@ -571,13 +570,7 @@
       <workItem from="1521058322144" duration="1128000" />
       <workItem from="1533142725462" duration="525000" />
       <workItem from="1533655727693" duration="688000" />
-      <workItem from="1549678779242" duration="2849000" />
-    </task>
-    <task id="LOCAL-00024" summary="Algo-Binary Search">
-      <created>1506044075085</created>
-      <option name="number" value="00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1506044075085</updated>
+      <workItem from="1549678779242" duration="2997000" />
     </task>
     <task id="LOCAL-00025" summary="CTCI-Arrays and String, Linked Lists, Stacks and Queues">
       <created>1506194441014</created>
@@ -867,11 +860,17 @@
       <option name="project" value="LOCAL" />
       <updated>1549681474633</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Update Algorithm   check parentheses">
+      <created>1549681667093</created>
+      <option name="number" value="00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1549681667093</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73486000" />
+    <option name="totallyTimeSpent" value="73634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-112" width="1920" height="1080" extended-state="0" />
