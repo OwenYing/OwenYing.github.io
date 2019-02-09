@@ -29,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7860798">
-              <caret line="449" column="73" selection-start-line="449" selection-start-column="73" selection-end-line="449" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.47492322">
+              <caret line="483" column="120" selection-start-line="483" selection-start-column="120" selection-end-line="483" selection-end-column="120" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -571,13 +571,7 @@
       <workItem from="1521058322144" duration="1128000" />
       <workItem from="1533142725462" duration="525000" />
       <workItem from="1533655727693" duration="688000" />
-      <workItem from="1549678779242" duration="2656000" />
-    </task>
-    <task id="LOCAL-00023" summary="Algo-Binary Search">
-      <created>1506043967930</created>
-      <option name="number" value="00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1506043967930</updated>
+      <workItem from="1549678779242" duration="2849000" />
     </task>
     <task id="LOCAL-00024" summary="Algo-Binary Search">
       <created>1506044075085</created>
@@ -867,11 +861,17 @@
       <option name="project" value="LOCAL" />
       <updated>1549681134163</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Update Algorithm   check parentheses">
+      <created>1549681474632</created>
+      <option name="number" value="00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1549681474633</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73293000" />
+    <option name="totallyTimeSpent" value="73486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-112" width="1920" height="1080" extended-state="0" />
@@ -1297,8 +1297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7860798">
-          <caret line="449" column="73" selection-start-line="449" selection-start-column="73" selection-end-line="449" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.47492322">
+          <caret line="483" column="120" selection-start-line="483" selection-start-column="120" selection-end-line="483" selection-end-column="120" />
           <folding>
             <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
