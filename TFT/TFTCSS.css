@@ -38,7 +38,7 @@ h1 {
     color: rgb(180, 74, 0);
 }
 .knightTitle {
-    color: rgb(59, 175, 180);
+    color: rgb(23, 70, 73);
 }
 .rangerTitle {
     color: rgb(0, 180, 105);
@@ -48,6 +48,12 @@ h1 {
 }
 .yordleTitle {
     color: rgb(180, 155, 94);
+}
+.voidTitle {
+    color: rgb(31, 31, 35);
+}
+.glacialTitle {
+    color: rgb(71, 193, 202);
 }
 
 /*Information of each type*/
