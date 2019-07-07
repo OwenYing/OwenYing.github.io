@@ -8,11 +8,13 @@
 </head>
 <body>
 
+<div id="container">
+
     <h1>TFT Strategy Helper</h1>
 
     <!--My Deck-->
     <h2>My Deck</h2>
-    <table width="90%" border="1em">
+    <table width="100%" border="1em">
         <tr>
             <td>current hero</td>
             <td>current synergy</td>
@@ -21,7 +23,7 @@
 
     <!--Candidate of this round-->
     <h2>Candidates</h2>
-    <table width="90%" border="1em">
+    <table width="100%" border="1em">
         <tr>
             <td>Hero</td>
             <td>Synergy could be formed</td>
@@ -44,5 +46,91 @@
         </tr>
     </table>
 
+    <!--Selection Pool-->
+    <h2>Selection Pool</h2>
+    <table width="100%" border="1em">
+        <!--Group the first two column and the second two column-->
+        <colgroup>
+            <col span="2" id="colSpan1">
+            <col span="2" id="colSpan2">
+        </colgroup>
+
+        <!--**********One row starts*********-->
+        <tr>
+            <!--=============One type starts-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle assasinTitle">ASSASIN</div>
+                <div class="typeInfo"><strong>[3/6]</strong>+150%,<strong>[6/6]</strong>+350%, <br/>Crit damage for Assasin</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral assassin Khazix">
+                    <img src="resources/image/KhaZix.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral assassin Pyke">
+                    <img src="resources/image/Pyke.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral assassin Zed">
+                    <img src="resources/image/Zed.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral assassin Evelynn">
+                    <img src="resources/image/Evelynn.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral assassin Katarina">
+                    <img src="resources/image/Katarina.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral assassin Rengar">
+                    <img src="resources/image/Rengar.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral assassin Akali">
+                    <img src="resources/image/Akali.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+
+            </td>
+            <!-- ==============One Type Ends-->
+
+            <!--=============One type starts-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle wildTitle">WILD</div>
+                <div class="typeInfo"><strong>[2/4]</strong> for wild,<strong>[4/4]</strong> for all allies, <br/>7% attach speed up to 5 stacks</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral wild Nidalee">
+                    <img src="resources/image/Nidalee.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral wild Warwick">
+                    <img src="resources/image/Warwick.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral wild Ahri">
+                    <img src="resources/image/Ahri.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral wild Rengar">
+                    <img src="resources/image/Rengar.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral wild Gnar">
+                    <img src="resources/image/Gnar.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+
+            </td>
+            <!-- ==============One Type Ends-->
+
+        </tr>
+        <!--**********One row ends*********-->
+
+
+    </table>
+
+</div>
 </body>
 </html>

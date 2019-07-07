@@ -1,12 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/TFT/TFT.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/TFTCSS.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/TFTJavaScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="Init TFT strategy helper">
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Aatrox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Ahri.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Akali.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Anivia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Ashe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Aurelion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Blitz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Brand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Braum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/ChoGath.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Darius.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Draven.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Elise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Evelynn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Fiora.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/GangPlank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Garen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Gnar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Graves.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Karthus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Kassadin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Katarina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Kayle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Kennen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/KhaZix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Kindred.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Leona.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Lissandra.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Lucian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Lulu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/MissFortune.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Mordekaiser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Morgana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Nidalee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Poppy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Pyke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/RekSai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Rengar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Sejuani.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Shen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Shyvana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Swain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Tristana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Varus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Vayne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Veigar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Volibear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Warwick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Yasuo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Zed.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFT/TFT.html" beforeDir="false" afterPath="$PROJECT_DIR$/TFT/TFT.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFT/TFTCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/TFT/TFTCSS.css" afterDir="false" />
     </list>
     <ignored path="MyBlog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,43 +73,48 @@
     <favorites_list name="MyBlog" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="483" column="120" selection-start-line="483" selection-start-column="120" selection-end-line="483" selection-end-column="120" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TFT/TFT.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TFT/TFTJavaScript.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TFT/TFTCSS.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.6304348">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/TFT/TFT.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="520">
+                  <caret line="100" column="82" selection-start-line="100" selection-start-column="82" selection-end-line="100" selection-end-column="82" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/TFT/TFTJavaScript.js">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/TFT/TFTCSS.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="209">
+                  <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/TFT/TFTCSS.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="411">
+                  <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -111,8 +164,8 @@
         <option value="$PROJECT_DIR$/html/blog/DataStructures/DataStructures.html" />
         <option value="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/TFT/TFTCSS.css" />
         <option value="$PROJECT_DIR$/TFT/TFTJavaScript.js" />
+        <option value="$PROJECT_DIR$/TFT/TFTCSS.css" />
         <option value="$PROJECT_DIR$/TFT/TFT.html" />
       </list>
     </option>
@@ -143,6 +196,12 @@
               <item name="OwenYing.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="TFT" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OwenYing.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="TFT" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -162,18 +221,18 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cv" />
-      <recent name="$PROJECT_DIR$/html/TheDaysWithYou/photo" />
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$/html/blog/DataStructures" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/html/TheDaysWithYou/photo" />
       <recent name="$PROJECT_DIR$/html/blog" />
       <recent name="$PROJECT_DIR$/html/blog/CrackingTheCodingInterview" />
       <recent name="$PROJECT_DIR$/res/img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TFT/resources/image" />
+      <recent name="$PROJECT_DIR$/cv" />
+      <recent name="$PROJECT_DIR$/html/TheDaysWithYou/photo" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -335,14 +394,7 @@
       <workItem from="1533142725462" duration="525000" />
       <workItem from="1533655727693" duration="688000" />
       <workItem from="1549678779242" duration="2997000" />
-      <workItem from="1562510547022" duration="1168000" />
-    </task>
-    <task id="LOCAL-00025" summary="CTCI-Arrays and String, Linked Lists, Stacks and Queues">
-      <created>1506194441014</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1506194441014</updated>
+      <workItem from="1562510547022" duration="7484000" />
     </task>
     <task id="LOCAL-00026" summary="CTCI-LinkedList in java">
       <created>1506195839233</created>
@@ -680,11 +732,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549681667093</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Init TFT strategy helper">
+      <created>1562511864510</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1562511864510</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74802000" />
+    <option name="totallyTimeSpent" value="81118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -730,7 +789,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CTCI Bit Operation" />
     <MESSAGE value="Algo DP-Unique Path" />
     <MESSAGE value="Algo DP- Min Edit Distance" />
     <MESSAGE value="DaysWithMySweet" />
@@ -755,7 +813,8 @@
     <MESSAGE value="Update Resume" />
     <MESSAGE value="Update Course Grades" />
     <MESSAGE value="Update Algorithm   check parentheses" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Algorithm   check parentheses" />
+    <MESSAGE value="Init TFT strategy helper" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init TFT strategy helper" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -954,6 +1013,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TFT/resources/image/Aatrox.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -964,20 +1026,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TFT/TFTCSS.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TFT/TFTJavaScript.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/TFT/TFTCSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TFT/TFT.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        <state relative-caret-position="520">
+          <caret line="100" column="82" selection-start-line="100" selection-start-column="82" selection-end-line="100" selection-end-column="82" />
         </state>
       </provider>
     </entry>
