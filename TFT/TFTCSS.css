@@ -31,6 +31,18 @@ h1 {
 .wildTitle {
     color: rgb(65, 180, 25);
 }
+.nobleTitle {
+    color: rgb(180, 175, 19);
+}
+.gunslingerTitle {
+    color: rgb(180, 74, 0);
+}
+.knightTitle {
+    color: rgb(59, 175, 180);
+}
+.rangerTitle {
+    color: rgb(0, 180, 105);
+}
 
 /*Information of each type*/
 .typeInfo {
