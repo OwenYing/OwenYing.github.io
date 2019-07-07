@@ -43,6 +43,12 @@ h1 {
 .rangerTitle {
     color: rgb(0, 180, 105);
 }
+.sorcererTitle {
+    color: rgb(43, 14, 180);
+}
+.yordleTitle {
+    color: rgb(180, 155, 94);
+}
 
 /*Information of each type*/
 .typeInfo {

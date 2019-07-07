@@ -1,57 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="Init TFT strategy helper">
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Aatrox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Ahri.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Akali.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Anivia.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Ashe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Aurelion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Blitz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Brand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Braum.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/ChoGath.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Darius.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Draven.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Elise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Evelynn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Fiora.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/GangPlank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Garen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Gnar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Graves.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Karthus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Kassadin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Katarina.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Kayle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Kennen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/KhaZix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Kindred.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Leona.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Lissandra.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Lucian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Lulu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/MissFortune.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Mordekaiser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Morgana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Nidalee.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Poppy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Pyke.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/RekSai.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Rengar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Sejuani.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Shen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Shyvana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Swain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Tristana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Varus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Vayne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Veigar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Volibear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Warwick.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Yasuo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/resources/image/Zed.png" afterDir="false" />
+    <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="TFT strategy helper: 2, 3 row of the table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFT/TFT.html" beforeDir="false" afterPath="$PROJECT_DIR$/TFT/TFT.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFT/TFTCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/TFT/TFTCSS.css" afterDir="false" />
@@ -79,8 +29,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/TFT/TFT.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="520">
-                  <caret line="100" column="82" selection-start-line="100" selection-start-column="82" selection-end-line="100" selection-end-column="82" />
+                <state relative-caret-position="436">
+                  <caret line="327" column="33" selection-start-line="327" selection-start-column="33" selection-end-line="327" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -106,8 +56,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/TFT/TFTCSS.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="411">
-                  <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+                <state relative-caret-position="733">
+                  <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -394,21 +344,7 @@
       <workItem from="1533142725462" duration="525000" />
       <workItem from="1533655727693" duration="688000" />
       <workItem from="1549678779242" duration="2997000" />
-      <workItem from="1562510547022" duration="7484000" />
-    </task>
-    <task id="LOCAL-00026" summary="CTCI-LinkedList in java">
-      <created>1506195839233</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1506195839233</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Algo - Recursive thinking">
-      <created>1506223697143</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1506223697143</updated>
+      <workItem from="1562510547022" duration="10523000" />
     </task>
     <task id="LOCAL-00028" summary="Diary: Github notebook">
       <created>1506276836593</created>
@@ -739,11 +675,25 @@
       <option name="project" value="LOCAL" />
       <updated>1562511864510</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="TFT strategy helper: init first row of table">
+      <created>1562528736413</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1562528736413</updated>
+    </task>
+    <task id="LOCAL-00076" summary="TFT strategy helper: 2, 3 row of the table">
+      <created>1562530651651</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1562530651652</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81118000" />
+    <option name="totallyTimeSpent" value="84157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -789,8 +739,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Algo DP-Unique Path" />
-    <MESSAGE value="Algo DP- Min Edit Distance" />
     <MESSAGE value="DaysWithMySweet" />
     <MESSAGE value="InterLeave String" />
     <MESSAGE value="Construct Binary Tree from preorder and inorder traverse" />
@@ -814,7 +762,9 @@
     <MESSAGE value="Update Course Grades" />
     <MESSAGE value="Update Algorithm   check parentheses" />
     <MESSAGE value="Init TFT strategy helper" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init TFT strategy helper" />
+    <MESSAGE value="TFT strategy helper: init first row of table" />
+    <MESSAGE value="TFT strategy helper: 2, 3 row of the table" />
+    <option name="LAST_COMMIT_MESSAGE" value="TFT strategy helper: 2, 3 row of the table" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1038,8 +988,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TFT/TFT.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="100" column="82" selection-start-line="100" selection-start-column="82" selection-end-line="100" selection-end-column="82" />
+        <state relative-caret-position="436">
+          <caret line="327" column="33" selection-start-line="327" selection-start-column="33" selection-end-line="327" selection-end-column="33" />
         </state>
       </provider>
     </entry>
