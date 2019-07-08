@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="TFT strategy helper: change type title's text">
-      <change afterPath="$PROJECT_DIR$/TFT/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFT/note.txt" afterDir="false" />
+    <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="TFT strategy helper: Fix minor bug; init javascript; add click animation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFT/TFT.html" beforeDir="false" afterPath="$PROJECT_DIR$/TFT/TFT.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFT/TFTCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/TFT/TFTCSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFT/TFTJavaScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/TFT/TFTJavaScript.js" afterDir="false" />
     </list>
     <ignored path="MyBlog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,20 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TFT/TFT.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="66" column="56" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
+            <state relative-caret-position="76">
+              <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TFT/TFTJavaScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="24" selection-start-line="24" selection-end-line="33" selection-end-column="10" />
+            <state relative-caret-position="167">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -58,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/TFT/note.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+              <caret line="8" column="66" lean-forward="true" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -113,10 +109,10 @@
         <option value="$PROJECT_DIR$/html/blog/DataStructures/DataStructures.html" />
         <option value="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/TFT/note.txt" />
         <option value="$PROJECT_DIR$/TFT/TFTCSS.css" />
-        <option value="$PROJECT_DIR$/TFT/TFT.html" />
         <option value="$PROJECT_DIR$/TFT/TFTJavaScript.js" />
+        <option value="$PROJECT_DIR$/TFT/note.txt" />
+        <option value="$PROJECT_DIR$/TFT/TFT.html" />
       </list>
     </option>
   </component>
@@ -346,21 +342,7 @@
       <workItem from="1533655727693" duration="688000" />
       <workItem from="1549678779242" duration="2997000" />
       <workItem from="1562510547022" duration="17706000" />
-      <workItem from="1562617224716" duration="5924000" />
-    </task>
-    <task id="LOCAL-00038" summary="DaysWithMySweet">
-      <created>1509390698302</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1509390698302</updated>
-    </task>
-    <task id="LOCAL-00039" summary="DaysWithMySweet">
-      <created>1509395261979</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1509395261980</updated>
+      <workItem from="1562617224716" duration="6372000" />
     </task>
     <task id="LOCAL-00040" summary="DaysWithMySweet">
       <created>1509397874331</created>
@@ -691,11 +673,25 @@
       <option name="project" value="LOCAL" />
       <updated>1562553832974</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="TFT strategy helper: Fix minor bug; init javascript; add click animation">
+      <created>1562623878682</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1562623878684</updated>
+    </task>
+    <task id="LOCAL-00088" summary="TFT strategy helper: Fix minor bug; init javascript; add click animation">
+      <created>1562624078608</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1562624078608</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97264000" />
+    <option name="totallyTimeSpent" value="97712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -741,7 +737,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Leetcode problems classified by company" />
     <MESSAGE value="Traverse Tree Iteratively" />
     <MESSAGE value="Count set bits in an integer" />
     <MESSAGE value="Trie" />
@@ -766,7 +761,8 @@
     <MESSAGE value="TFT strategy helper: 12th row of the table" />
     <MESSAGE value="TFT strategy helper: 13th row of the table" />
     <MESSAGE value="TFT strategy helper: change type title's text" />
-    <option name="LAST_COMMIT_MESSAGE" value="TFT strategy helper: change type title's text" />
+    <MESSAGE value="TFT strategy helper: Fix minor bug; init javascript; add click animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="TFT strategy helper: Fix minor bug; init javascript; add click animation" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -975,13 +971,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TFT/note.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TFT/jquery-3.4.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -996,17 +985,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TFT/TFT.html">
+    <entry file="file://$PROJECT_DIR$/TFT/TFTJavaScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="66" column="56" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
+        <state relative-caret-position="167">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TFT/TFTJavaScript.js">
+    <entry file="file://$PROJECT_DIR$/TFT/note.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="24" selection-start-line="24" selection-end-line="33" selection-end-column="10" />
+        <state relative-caret-position="152">
+          <caret line="8" column="66" lean-forward="true" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFT/TFT.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
         </state>
       </provider>
     </entry>
