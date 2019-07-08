@@ -55,6 +55,12 @@ h1 {
 .glacialTitle {
     color: rgb(71, 193, 202);
 }
+.brawlerTitle {
+    color: rgb(85, 69, 5);
+}
+.elementalistTitle {
+    color: rgb(85, 2, 12);
+}
 
 /*Information of each type*/
 .typeInfo {
