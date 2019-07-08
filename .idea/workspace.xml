@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="TFT strategy helper: Fix minor bug; init javascript; add click animation">
+    <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="TFT strategy helper: init candidate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFT/TFT.html" beforeDir="false" afterPath="$PROJECT_DIR$/TFT/TFT.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFT/TFTJavaScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/TFT/TFTJavaScript.js" afterDir="false" />
     </list>
     <ignored path="MyBlog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +27,30 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TFT/TFT.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+            <state relative-caret-position="697">
+              <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+              <folding>
+                <element signature="e#771#777#1" expanded="true" />
+                <element signature="e#777#783#0" expanded="true" />
+                <element signature="e#805#811#0" expanded="true" />
+                <element signature="e#811#817#0" expanded="true" />
+                <element signature="e#896#902#1" expanded="true" />
+                <element signature="e#902#908#0" expanded="true" />
+                <element signature="e#919#925#0" expanded="true" />
+                <element signature="e#925#931#0" expanded="true" />
+                <element signature="e#1005#1011#1" expanded="true" />
+                <element signature="e#1011#1017#0" expanded="true" />
+                <element signature="e#1033#1039#0" expanded="true" />
+                <element signature="e#1039#1045#0" expanded="true" />
+                <element signature="e#1114#1120#1" expanded="true" />
+                <element signature="e#1120#1126#0" expanded="true" />
+                <element signature="e#1147#1153#0" expanded="true" />
+                <element signature="e#1153#1159#0" expanded="true" />
+                <element signature="e#1223#1229#1" expanded="true" />
+                <element signature="e#1229#1235#0" expanded="true" />
+                <element signature="e#1261#1267#0" expanded="true" />
+                <element signature="e#1267#1273#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TFT/TFTJavaScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="572">
+              <caret line="144" column="61" lean-forward="true" selection-start-line="144" selection-start-column="61" selection-end-line="144" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -110,8 +133,8 @@
         <option value="$PROJECT_DIR$/html/blog/Algorithms/Algorithms.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/TFT/TFTCSS.css" />
-        <option value="$PROJECT_DIR$/TFT/TFTJavaScript.js" />
         <option value="$PROJECT_DIR$/TFT/note.txt" />
+        <option value="$PROJECT_DIR$/TFT/TFTJavaScript.js" />
         <option value="$PROJECT_DIR$/TFT/TFT.html" />
       </list>
     </option>
@@ -342,21 +365,7 @@
       <workItem from="1533655727693" duration="688000" />
       <workItem from="1549678779242" duration="2997000" />
       <workItem from="1562510547022" duration="17706000" />
-      <workItem from="1562617224716" duration="6372000" />
-    </task>
-    <task id="LOCAL-00040" summary="DaysWithMySweet">
-      <created>1509397874331</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1509397874331</updated>
-    </task>
-    <task id="LOCAL-00041" summary="DaysWithMySweet">
-      <created>1509413220811</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1509413220812</updated>
+      <workItem from="1562617224716" duration="9520000" />
     </task>
     <task id="LOCAL-00042" summary="DaysWithMySweet">
       <created>1509415723835</created>
@@ -687,11 +696,25 @@
       <option name="project" value="LOCAL" />
       <updated>1562624078608</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="TFT strategy helper: Fix minor bug; init javascript; add click animation">
+      <created>1562624575643</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1562624575643</updated>
+    </task>
+    <task id="LOCAL-00090" summary="TFT strategy helper: init candidate">
+      <created>1562627689261</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1562627689262</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97712000" />
+    <option name="totallyTimeSpent" value="100860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -737,7 +760,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Traverse Tree Iteratively" />
     <MESSAGE value="Count set bits in an integer" />
     <MESSAGE value="Trie" />
     <MESSAGE value="Topological Sort" />
@@ -762,7 +784,8 @@
     <MESSAGE value="TFT strategy helper: 13th row of the table" />
     <MESSAGE value="TFT strategy helper: change type title's text" />
     <MESSAGE value="TFT strategy helper: Fix minor bug; init javascript; add click animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="TFT strategy helper: Fix minor bug; init javascript; add click animation" />
+    <MESSAGE value="TFT strategy helper: init candidate" />
+    <option name="LAST_COMMIT_MESSAGE" value="TFT strategy helper: init candidate" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -985,13 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TFT/TFTJavaScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TFT/note.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -999,10 +1015,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TFT/TFTJavaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="144" column="61" lean-forward="true" selection-start-line="144" selection-start-column="61" selection-end-line="144" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TFT/TFT.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+        <state relative-caret-position="697">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+          <folding>
+            <element signature="e#771#777#1" expanded="true" />
+            <element signature="e#777#783#0" expanded="true" />
+            <element signature="e#805#811#0" expanded="true" />
+            <element signature="e#811#817#0" expanded="true" />
+            <element signature="e#896#902#1" expanded="true" />
+            <element signature="e#902#908#0" expanded="true" />
+            <element signature="e#919#925#0" expanded="true" />
+            <element signature="e#925#931#0" expanded="true" />
+            <element signature="e#1005#1011#1" expanded="true" />
+            <element signature="e#1011#1017#0" expanded="true" />
+            <element signature="e#1033#1039#0" expanded="true" />
+            <element signature="e#1039#1045#0" expanded="true" />
+            <element signature="e#1114#1120#1" expanded="true" />
+            <element signature="e#1120#1126#0" expanded="true" />
+            <element signature="e#1147#1153#0" expanded="true" />
+            <element signature="e#1153#1159#0" expanded="true" />
+            <element signature="e#1223#1229#1" expanded="true" />
+            <element signature="e#1229#1235#0" expanded="true" />
+            <element signature="e#1261#1267#0" expanded="true" />
+            <element signature="e#1267#1273#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

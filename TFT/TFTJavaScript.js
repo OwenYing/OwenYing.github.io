@@ -139,7 +139,11 @@ function clickEvents() {
         }
         if(roundCount <= 5) {
             $candidateImgTd.append($img.clone());
-            $candidateSynergyTd.append($img.clone());
+
+            $("." + champName).each(function(i, obj) {
+                var candidateType = $(this).attr("class").split(" ")[1];
+                $candidateSynergyTd.append(candidateType + " ");
+            });
         }
 
 
