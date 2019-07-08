@@ -73,6 +73,12 @@ h1 {
 .blademasterTitle {
     color: rgba(205, 116, 215, 0.49);
 }
+.dragonTitle {
+    color: rgb(255, 0, 11);
+}
+.imperialTitle {
+    color: rgb(75, 0, 9);
+}
 
 /*Information of each type*/
 .typeInfo {
