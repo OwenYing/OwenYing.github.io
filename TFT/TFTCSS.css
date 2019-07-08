@@ -110,6 +110,14 @@ h1 {
 .champGeneral {
     margin: 0 0 0 5px;
     position: relative;
+    /*animation-duration: 4s;*/
+    /*animation-timing-function: ease-out;*/
+    /*animation-delay: 0s;*/
+    /*animation-iteration-count: infinite;*/
+    /*animation-direction: normal;*/
+    /*animation-fill-mode: none;*/
+    /*animation-play-state: running;*/
+    /*animation-name: shake;*/
 }
 
 .champCostLabel {
@@ -141,4 +149,13 @@ h1 {
 }
 .fiveCoin {
     background-color: rgb(234, 147, 57);
+}
+
+
+/*Animations*/
+@keyframes shake {
+    25%  {left:+20px; }
+    50%  {left:-20px; }
+    75%  {left:-20px; }
+    100% {left:+20px; }
 }

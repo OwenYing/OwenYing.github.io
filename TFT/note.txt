@@ -1,0 +1,9 @@
+
+
+Functionalities:
+
+    1. When click on one champ, all the champ image move
+    2. Strategy helper
+        |-- Click on pools, move it to candidates and show potential synergy.
+        |-- Click on candidates to add to my deck; Meanwhile clean the candidates.
+        |-- Drag out of my deck to delete the champ from the deck.
