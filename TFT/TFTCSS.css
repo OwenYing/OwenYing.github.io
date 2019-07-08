@@ -91,6 +91,9 @@ h1 {
 .robotTitle {
     color: rgb(204, 199, 0);
 }
+.exileTitle {
+    color: rgb(0, 204, 197);
+}
 
 /*Information of each type*/
 .typeInfo {
