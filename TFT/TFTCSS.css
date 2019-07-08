@@ -61,6 +61,12 @@ h1 {
 .elementalistTitle {
     color: rgb(85, 2, 12);
 }
+.demonTitle {
+    color: rgba(0, 0, 0, 1);
+}
+.ninjaTitle {
+    color: rgb(221, 27, 33);
+}
 
 /*Information of each type*/
 .typeInfo {
