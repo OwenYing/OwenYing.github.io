@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="TFT strategy helper: 7th row of the table">
+    <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="TFT strategy helper: 9th row of the table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFT/TFT.html" beforeDir="false" afterPath="$PROJECT_DIR$/TFT/TFT.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFT/TFTCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/TFT/TFTCSS.css" afterDir="false" />
@@ -29,8 +29,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/TFT/TFT.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="305">
-                  <caret line="586" column="127" selection-start-line="586" selection-start-column="127" selection-end-line="586" selection-end-column="127" />
+                <state relative-caret-position="618">
+                  <caret line="715" column="22" selection-start-line="715" selection-start-column="22" selection-end-line="715" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -56,8 +56,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/TFT/TFTCSS.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="785">
-                  <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
+                <state relative-caret-position="599">
+                  <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -344,21 +344,7 @@
       <workItem from="1533142725462" duration="525000" />
       <workItem from="1533655727693" duration="688000" />
       <workItem from="1549678779242" duration="2997000" />
-      <workItem from="1562510547022" duration="14950000" />
-    </task>
-    <task id="LOCAL-00032" summary="Algo long number mul">
-      <created>1506371618399</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1506371618399</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Algo long number add">
-      <created>1506372211321</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1506372211321</updated>
+      <workItem from="1562510547022" duration="16392000" />
     </task>
     <task id="LOCAL-00034" summary="CTCI Bit Operation">
       <created>1506648791466</created>
@@ -689,11 +675,25 @@
       <option name="project" value="LOCAL" />
       <updated>1562549791042</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="TFT strategy helper: 8th row of the table">
+      <created>1562550948676</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1562550948676</updated>
+    </task>
+    <task id="LOCAL-00082" summary="TFT strategy helper: 9th row of the table">
+      <created>1562551699358</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1562551699359</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88584000" />
+    <option name="totallyTimeSpent" value="90026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -739,8 +739,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tree recursive" />
-    <MESSAGE value="Consecutive Sequence" />
     <MESSAGE value="HashMap put" />
     <MESSAGE value="Iterate HashMap" />
     <MESSAGE value="Add Grades" />
@@ -764,7 +762,9 @@
     <MESSAGE value="TFT strategy helper: 5th row of the table" />
     <MESSAGE value="TFT strategy helper: 6th row of the table" />
     <MESSAGE value="TFT strategy helper: 7th row of the table" />
-    <option name="LAST_COMMIT_MESSAGE" value="TFT strategy helper: 7th row of the table" />
+    <MESSAGE value="TFT strategy helper: 8th row of the table" />
+    <MESSAGE value="TFT strategy helper: 9th row of the table" />
+    <option name="LAST_COMMIT_MESSAGE" value="TFT strategy helper: 9th row of the table" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -988,8 +988,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TFT/TFT.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="586" column="127" selection-start-line="586" selection-start-column="127" selection-end-line="586" selection-end-column="127" />
+        <state relative-caret-position="618">
+          <caret line="715" column="22" selection-start-line="715" selection-start-column="22" selection-end-line="715" selection-end-column="22" />
         </state>
       </provider>
     </entry>

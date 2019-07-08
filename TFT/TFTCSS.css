@@ -79,6 +79,12 @@ h1 {
 .imperialTitle {
     color: rgb(75, 0, 9);
 }
+.pirateTitle {
+    color: rgb(0, 1, 101);
+}
+.phantomTitle {
+    color: rgb(0, 146, 142);
+}
 
 /*Information of each type*/
 .typeInfo {
