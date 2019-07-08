@@ -40,8 +40,6 @@ function clickEvents() {
         wink("."+champName);                //3.  Animate the same champ
     });
 
-    // var attrs = $(".champGeneral").attr("class");
-    // alert(attrs);
 }
 
 
