@@ -24,29 +24,29 @@ GUARDIAN = 0;
 ROBOT = 0;
 EXILE = 0;
 
-roundASSASIN = 0;
-roundWILD = 0;
-roundNOBLE = 0;
-roundGUNSLINGER = 0;
-roundKNIGHT = 0;
-roundRANGER = 0;
-roundSORCERER = 0;
-roundYORDLE = 0;
-roundVOID = 0;
-roundGLACIAL = 0;
-roundBRAWLER = 0;
-roundELEMENTALIST = 0;
-roundDEMON = 0;
-roundNINJA = 0;
-roundSHAPESHIFTER = 0;
-roundBLADEMASTER = 0;
-roundDRAGON = 0;
-roundIMPERIAL = 0;
-roundPIRATE = 0;
-roundPHANTOM = 0;
-roundGUARDIAN = 0;
-roundROBOT = 0;
-roundEXILE = 0;
+// roundASSASIN = 0;
+// roundWILD = 0;
+// roundNOBLE = 0;
+// roundGUNSLINGER = 0;
+// roundKNIGHT = 0;
+// roundRANGER = 0;
+// roundSORCERER = 0;
+// roundYORDLE = 0;
+// roundVOID = 0;
+// roundGLACIAL = 0;
+// roundBRAWLER = 0;
+// roundELEMENTALIST = 0;
+// roundDEMON = 0;
+// roundNINJA = 0;
+// roundSHAPESHIFTER = 0;
+// roundBLADEMASTER = 0;
+// roundDRAGON = 0;
+// roundIMPERIAL = 0;
+// roundPIRATE = 0;
+// roundPHANTOM = 0;
+// roundGUARDIAN = 0;
+// roundROBOT = 0;
+// roundEXILE = 0;
 
 
 roundCount = 0;
@@ -54,29 +54,29 @@ roundCount = 0;
 
 // Functions
 function resetRound() {
-    roundASSASIN = 0;
-    roundWILD = 0;
-    roundNOBLE = 0;
-    roundGUNSLINGER = 0;
-    roundKNIGHT = 0;
-    roundRANGER = 0;
-    roundSORCERER = 0;
-    roundYORDLE = 0;
-    roundVOID = 0;
-    roundGLACIAL = 0;
-    roundBRAWLER = 0;
-    roundELEMENTALIST = 0;
-    roundDEMON = 0;
-    roundNINJA = 0;
-    roundSHAPESHIFTER = 0;
-    roundBLADEMASTER = 0;
-    roundDRAGON = 0;
-    roundIMPERIAL = 0;
-    roundPIRATE = 0;
-    roundPHANTOM = 0;
-    roundGUARDIAN = 0;
-    roundROBOT = 0;
-    roundEXILE = 0;
+    // roundASSASIN = 0;
+    // roundWILD = 0;
+    // roundNOBLE = 0;
+    // roundGUNSLINGER = 0;
+    // roundKNIGHT = 0;
+    // roundRANGER = 0;
+    // roundSORCERER = 0;
+    // roundYORDLE = 0;
+    // roundVOID = 0;
+    // roundGLACIAL = 0;
+    // roundBRAWLER = 0;
+    // roundELEMENTALIST = 0;
+    // roundDEMON = 0;
+    // roundNINJA = 0;
+    // roundSHAPESHIFTER = 0;
+    // roundBLADEMASTER = 0;
+    // roundDRAGON = 0;
+    // roundIMPERIAL = 0;
+    // roundPIRATE = 0;
+    // roundPHANTOM = 0;
+    // roundGUARDIAN = 0;
+    // roundROBOT = 0;
+    // roundEXILE = 0;
 
     roundCount = 0;
 }
@@ -199,7 +199,136 @@ function checkSynergy(roundASSASIN, roundWILD, roundNOBLE,
     return resultString;
 }
 
-function checkCandidateSynergy(champTypeString) {
+function packSynergy(champTypeString) {
+    assasin = 0;
+    wild = 0;
+    noble = 0;
+    gunslinger = 0;
+    knight = 0;
+    ranger = 0;
+    sorcerer = 0;
+    yordle = 0;
+    vvoid = 0;
+    glacial = 0;
+    bralwer = 0;
+    elementalist = 0;
+    demon = 0;
+    ninja = 0;
+    shapeshifter = 0;
+    blademaster = 0;
+    dragon = 0;
+    imperial = 0;
+    pirate = 0;
+    phantom = 0;
+    guardian = 0;
+    robot = 0;
+    exile = 0;
+
+    if(champTypeString.includes("assassin"))
+        assasin ++;
+    if(champTypeString.includes("wild"))
+        wild ++;
+    if(champTypeString.includes("noble"))
+        noble ++;
+    if(champTypeString.includes("gunslinger"))
+        gunslinger ++;
+    if(champTypeString.includes("knight"))
+        knight ++;
+    if(champTypeString.includes("ranger"))
+        ranger ++;
+    if(champTypeString.includes("sorcerer"))
+        sorcerer ++;
+    if(champTypeString.includes("yordle"))
+        yordle ++;
+    if(champTypeString.includes("void"))
+        vvoid ++;
+    if(champTypeString.includes("glacial"))
+        glacial ++;
+    if(champTypeString.includes("brawler"))
+        bralwer ++;
+    if(champTypeString.includes("elementalist"))
+        elementalist ++;
+    if(champTypeString.includes("demon"))
+        demon ++;
+    if(champTypeString.includes("ninja"))
+        ninja ++;
+    if(champTypeString.includes("shapeshifter"))
+        shapeshifter ++;
+    if(champTypeString.includes("blademaster"))
+        blademaster ++;
+    if(champTypeString.includes("dragon"))
+        dragon ++;
+    if(champTypeString.includes("imperial"))
+        imperial ++;
+    if(champTypeString.includes("pirate"))
+        pirate ++;
+    if(champTypeString.includes("phantom"))
+        phantom ++;
+    if(champTypeString.includes("guardian"))
+        guardian ++;
+    if(champTypeString.includes("robot"))
+        robot ++;
+    if(champTypeString.includes("exile"))
+        exile ++;
+
+    var typePack = {
+        ASSASIN : assasin,
+        WILD : wild,
+        NOBLE : noble,
+        GUNSLINGER : gunslinger,
+        KNIGHT : knight,
+        RANGER : ranger,
+        SORCERER : sorcerer,
+        YORDLE : yordle,
+        VOID : vvoid,
+        GLACIAL : glacial,
+        BRAWLER : bralwer,
+        ELEMENTALIST : elementalist,
+        DEMON : demon,
+        NINJA : ninja,
+        SHAPESHIFTER : shapeshifter,
+        BLADEMASTER : blademaster,
+        DRAGON : dragon,
+        IMPERIAL : imperial,
+        PIRATE : pirate,
+        PHANTOM : phantom,
+        GUARDIAN : guardian,
+        ROBOT : robot,
+        EXILE : exile
+    };
+    return typePack;
+}
+
+
+function checkPotentialSynergy(champTypeString) {
+    var pack = packSynergy(champTypeString);
+    var synergyStr = checkSynergy(
+        ASSASIN+pack.ASSASIN,
+        WILD+pack.WILD,
+        NOBLE+pack.NOBLE,
+        GUNSLINGER+pack.GUNSLINGER,
+        KNIGHT+pack.KNIGHT,
+        RANGER+pack.RANGER,
+        SORCERER+pack.SORCERER,
+        YORDLE+pack.YORDLE,
+        VOID+pack.VOID,
+        GLACIAL+pack.GLACIAL,
+        BRAWLER+pack.BRAWLER,
+        ELEMENTALIST+pack.ELEMENTALIST,
+        DEMON+pack.DEMON,
+        NINJA+pack.NINJA,
+        SHAPESHIFTER+pack.SHAPESHIFTER,
+        BLADEMASTER+pack.BLADEMASTER,
+        DRAGON+pack.DRAGON,
+        IMPERIAL+pack.IMPERIAL,
+        PIRATE+pack.PIRATE,
+        PHANTOM+pack.PHANTOM,
+        GUARDIAN+pack.GUARDIAN,
+        ROBOT+pack.ROBOT,
+        EXILE+pack.EXILE
+    );
+
+    return synergyStr;
 
 }
 
@@ -267,8 +396,14 @@ function clickEvents() {
                 $candidateSynergyTd.append(candidateType + " ");
                 candidateTypeCheck += (candidateType + " ");
             });
-            var candidateSynergy = checkCandidateSynergy(candidateTypeCheck);
+            var candidateSynergy = checkPotentialSynergy(candidateTypeCheck);
             $candidateSynergyTd.append(candidateSynergy);
+
+            // Add on click listener to the candidate images
+            $candidateImgTd.on("click", function(){
+                $("#myDeckImg").append($(this).children().first());
+            });
+
         }
 
 
