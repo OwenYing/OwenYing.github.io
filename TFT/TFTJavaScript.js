@@ -401,8 +401,11 @@ function clickEvents() {
 
             // Add on click listener to the candidate images
             $candidateImgTd.on("click", function(){
+                // Move img from candidate to my deck
                 $("#myDeckImg").append($(this).children().first());
                 $("#myDeckImg img").css({"margin" : "0 0 0 5px"});
+                // Update my deck synergy
+                alert(candidateTypeCheck);
             });
 
         }
