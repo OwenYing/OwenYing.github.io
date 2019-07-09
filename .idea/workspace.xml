@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="TFT strategy helper: init candidate">
+    <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="TFT strategy helper: add pack synergy function and init click function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFT/TFTJavaScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/TFT/TFTJavaScript.js" afterDir="false" />
     </list>
@@ -26,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TFT/TFT.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="383">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
               <folding>
                 <element signature="e#771#777#0" expanded="true" />
                 <element signature="e#777#783#0" expanded="true" />
@@ -50,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TFT/TFTJavaScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="162" column="28" selection-start-line="162" selection-start-column="28" selection-end-line="162" selection-end-column="28" />
+            <state relative-caret-position="693">
+              <caret line="404" column="66" selection-start-line="404" selection-start-column="66" selection-end-line="404" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -358,21 +358,7 @@
       <workItem from="1549678779242" duration="2997000" />
       <workItem from="1562510547022" duration="17706000" />
       <workItem from="1562617224716" duration="9707000" />
-      <workItem from="1562687061143" duration="3468000" />
-    </task>
-    <task id="LOCAL-00043" summary="DaysWithMySweet">
-      <created>1509417307983</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1509417307983</updated>
-    </task>
-    <task id="LOCAL-00044" summary="InterLeave String">
-      <created>1510946999912</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1510946999912</updated>
+      <workItem from="1562687061143" duration="8686000" />
     </task>
     <task id="LOCAL-00045" summary="Construct Binary Tree from preorder and inorder traverse">
       <created>1510954915616</created>
@@ -703,11 +689,25 @@
       <option name="project" value="LOCAL" />
       <updated>1562627928129</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="TFT strategy helper: add check synergy function">
+      <created>1562694257048</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1562694257049</updated>
+    </task>
+    <task id="LOCAL-00093" summary="TFT strategy helper: add pack synergy function and init click function">
+      <created>1562707178919</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1562707178919</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104515000" />
+    <option name="totallyTimeSpent" value="109733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -753,8 +753,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Count set bits in an integer" />
-    <MESSAGE value="Trie" />
     <MESSAGE value="Topological Sort" />
     <MESSAGE value="DFS Template" />
     <MESSAGE value="Majority vote" />
@@ -778,7 +776,9 @@
     <MESSAGE value="TFT strategy helper: change type title's text" />
     <MESSAGE value="TFT strategy helper: Fix minor bug; init javascript; add click animation" />
     <MESSAGE value="TFT strategy helper: init candidate" />
-    <option name="LAST_COMMIT_MESSAGE" value="TFT strategy helper: init candidate" />
+    <MESSAGE value="TFT strategy helper: add check synergy function" />
+    <MESSAGE value="TFT strategy helper: add pack synergy function and init click function" />
+    <option name="LAST_COMMIT_MESSAGE" value="TFT strategy helper: add pack synergy function and init click function" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1010,8 +1010,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TFT/TFT.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="383">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
           <folding>
             <element signature="e#771#777#0" expanded="true" />
             <element signature="e#777#783#0" expanded="true" />
@@ -1032,8 +1032,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TFT/TFTJavaScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="162" column="28" selection-start-line="162" selection-start-column="28" selection-end-line="162" selection-end-column="28" />
+        <state relative-caret-position="693">
+          <caret line="404" column="66" selection-start-line="404" selection-start-column="66" selection-end-line="404" selection-end-column="66" />
         </state>
       </provider>
     </entry>

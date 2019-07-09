@@ -402,6 +402,7 @@ function clickEvents() {
             // Add on click listener to the candidate images
             $candidateImgTd.on("click", function(){
                 $("#myDeckImg").append($(this).children().first());
+                $("#myDeckImg img").css({"margin" : "0 0 0 5px"});
             });
 
         }
