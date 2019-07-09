@@ -81,7 +81,125 @@ function resetRound() {
     roundCount = 0;
 }
 
-function checkCandidateSynergy(element) {
+function checkSynergy(roundASSASIN, roundWILD, roundNOBLE,
+                      roundGUNSLINGER, roundKNIGHT, roundRANGER,
+                      roundSORCERER, roundYORDLE, roundVOID,
+                      roundGLACIAL, roundBRAWLER, roundELEMENTALIST,
+                      roundDEMON, roundNINJA, roundSHAPESHIFTER,
+                      roundBLADEMASTER, roundDRAGON, roundIMPERIAL,
+                      roundPIRATE, roundPHANTOM, roundGUARDIAN, roundROBOT, roundEXILE) {
+
+    // Format: [n/n]Assasin space
+    var resultString = "";
+    if(roundASSASIN >= 6) {
+        resultString += "[6/6]Assasin ";
+    } else if(roundASSASIN >= 3) {
+        resultString += "[3/6]Assasin ";
+    }
+    if(roundWILD >= 4) {
+        resultString += "[4/4]Wild ";
+    } else if(roundWILD >= 2) {
+        resultString += "[2/4]Wild ";
+    }
+    if(roundNOBLE >= 6) {
+        resultString += "[6/6]Noble ";
+    } else if(roundNOBLE >= 3) {
+        resultString += "[3/6]Noble ";
+    }
+    if(roundGUNSLINGER >= 4) {
+        resultString += "[4/4]Gunslinger ";
+    } else if(roundGUNSLINGER >= 2) {
+        resultString += "[2/4]Gunslinger ";
+    }
+    if(roundKNIGHT >= 6) {
+        resultString += "[6/6]Knight ";
+    } else if(roundKNIGHT >= 4) {
+        resultString += "[4/6]Knight ";
+    } else if(roundKNIGHT >= 2) {
+        resultString += "[2/6]Knight ";
+    }
+    if(roundRANGER >= 4) {
+        resultString += "[4/4]Ranger ";
+    } else if(roundRANGER >= 2) {
+        resultString += "[2/4]Ranger ";
+    }
+    if(roundSORCERER >= 6) {
+        resultString += "[6/6]Sorcerer ";
+    } else if(roundSORCERER >= 3) {
+        resultString += "[3/6]Sorcerer ";
+    }
+    if(roundYORDLE >= 6) {
+        resultString += "[6/6]Yordle ";
+    } else if(roundYORDLE >= 3) {
+        resultString += "[3/6]Yordle ";
+    }
+    if(roundVOID >= 3) {
+        resultString += "[3/3]Void ";
+    }
+    if(roundGLACIAL >= 6) {
+        resultString += "[6/6]Glacial ";
+    } else if(roundGLACIAL >= 4) {
+        resultString += "[4/6]Glacial ";
+    } else if(roundGLACIAL >= 2) {
+        resultString += "[2/6]Glacial ";
+    }
+    if(roundBRAWLER >= 4) {
+        resultString += "[4/4]Brawler ";
+    } else if(roundBRAWLER >= 2) {
+        resultString += "[2/4]Brawler ";
+    }
+    if(roundELEMENTALIST >= 3) {
+        resultString += "[3/3]Elementalist ";
+    }
+    if(roundDEMON >= 6) {
+        resultString += "[6/6]Demon ";
+    } else if(roundDEMON >= 4) {
+        resultString += "[4/6]Demon ";
+    } else if(roundDEMON >= 2) {
+        resultString += "[2/6]Demon ";
+    }
+    if(roundNINJA === 1) {
+        resultString += "[1/4]Ninja ";
+    } else if(roundNINJA === 4) {
+        resultString += "[4/4]Ninja ";
+    }
+    if(roundSHAPESHIFTER >= 3) {
+        resultString += "[3/3]ShapeShifter ";
+    }
+    if(roundBLADEMASTER >= 6) {
+        resultString += "[6/6]BladeMaster ";
+    } else if(roundBLADEMASTER >= 3) {
+        resultString += "[3/6]BladeMaster ";
+    }
+    if(roundDRAGON >= 2) {
+        resultString += "[2/2]Dragon ";
+    }
+    if(roundIMPERIAL >= 4) {
+        resultString += "[4/4]Imperial ";
+    } else if(roundIMPERIAL >= 2) {
+        resultString += "[2/4]Imperial ";
+    }
+    if(roundPIRATE >= 3) {
+        resultString += "[3/3]Pirate ";
+    }
+    if(roundPHANTOM >= 2) {
+        resultString += "[2/2]Phantom ";
+    }
+    if(roundGUARDIAN >= 2) {
+        resultString += "[2/2]Guardian ";
+    }
+    if(roundROBOT >= 1) {
+        resultString += "[1/1]Robot ";
+    }
+    if(roundEXILE >= 1) {
+        resultString += "[1/1]Exile ";
+    }
+
+
+    return resultString;
+}
+
+function checkCandidateSynergy(champTypeString) {
 
 }
 
@@ -138,12 +256,19 @@ function clickEvents() {
             case 5: $candidateRow = $("#candidateRow5");$candidateImgTd = $("#candidateRow5 td:eq(0)"); $candidateSynergyTd = $("#candidateRow5 td:eq(1)"); break;
         }
         if(roundCount <= 5) {
+            // Add candidate image
             $candidateImgTd.append($img.clone());
+            $candidateImgTd.children().first().addClass("candidateImg"); // add a class to be later used
 
+            // Add candidate synergy
+            var candidateTypeCheck = "";
             $("." + champName).each(function(i, obj) {
                 var candidateType = $(this).attr("class").split(" ")[1];
                 $candidateSynergyTd.append(candidateType + " ");
+                candidateTypeCheck += (candidateType + " ");
             });
+            var candidateSynergy = checkCandidateSynergy(candidateTypeCheck);
+            $candidateSynergyTd.append(candidateSynergy);
         }
 
 
