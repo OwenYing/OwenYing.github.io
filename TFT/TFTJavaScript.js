@@ -333,6 +333,65 @@ function checkPotentialSynergy(champTypeString) {
 }
 
 
+function addToMySynergy(champTypeString) {
+    var pack = packSynergy(champTypeString);
+    ASSASIN += pack.ASSASIN;
+    WILD += pack.WILD;
+    NOBLE += pack.NOBLE;
+    GUNSLINGER += pack.GUNSLINGER;
+    KNIGHT += pack.KNIGHT;
+    RANGER += pack.RANGER;
+    SORCERER += pack.SORCERER;
+    YORDLE += pack.YORDLE;
+    VOID += pack.VOID;
+    GLACIAL += pack.GLACIAL;
+    BRAWLER += pack.BRAWLER;
+    ELEMENTALIST += pack.ELEMENTALIST;
+    DEMON += pack.DEMON;
+    NINJA += pack.NINJA;
+    SHAPESHIFTER += pack.SHAPESHIFTER;
+    BLADEMASTER += pack.BLADEMASTER;
+    DRAGON += pack.DRAGON;
+    IMPERIAL += pack.IMPERIAL;
+    PIRATE += pack.PIRATE;
+    PHANTOM += pack.PHANTOM;
+    GUARDIAN += pack.GUARDIAN;
+    ROBOT += pack.ROBOT;
+    EXILE += pack.EXILE;
+
+    var syneryStr = checkSynergy(
+        ASSASIN,
+        WILD,
+        NOBLE,
+        GUNSLINGER,
+        KNIGHT,
+        RANGER,
+        SORCERER,
+        YORDLE,
+        VOID,
+        GLACIAL,
+        BRAWLER,
+        ELEMENTALIST,
+        DEMON,
+        NINJA,
+        SHAPESHIFTER,
+        BLADEMASTER,
+        DRAGON,
+        IMPERIAL,
+        PIRATE,
+        PHANTOM,
+        GUARDIAN,
+        ROBOT,
+        EXILE
+    );
+    return syneryStr;
+}
+
+function deleteFromMySynergy() {
+
+}
+
+
 
 // Animations
 function wink(element) {
@@ -401,11 +460,14 @@ function clickEvents() {
 
             // Add on click listener to the candidate images
             $candidateImgTd.on("click", function(){
+                // Add classes to the clicked image: later when deleting them, we can find the types based on class names
+                $(this).find("img").addClass(candidateTypeCheck);
                 // Move img from candidate to my deck
                 $("#myDeckImg").append($(this).children().first());
                 $("#myDeckImg img").css({"margin" : "0 0 0 5px"});
                 // Update my deck synergy
-                alert(candidateTypeCheck);
+                var updateMyDeckStr = addToMySynergy(candidateTypeCheck);
+                $("#myDeckSynergy").empty().append(updateMyDeckStr);
             });
 
         }
