@@ -79,6 +79,7 @@ function resetRound() {
     // roundEXILE = 0;
 
     roundCount = 0;
+    $("#candidateTable td").empty();
 }
 
 function checkSynergy(roundASSASIN, roundWILD, roundNOBLE,
@@ -473,13 +474,12 @@ function clickEvents() {
         }
 
 
+    });
 
 
-        $("." + champName).each(function(i, obj) {
-            var candidateType = $(this).attr("class").split(" ")[1];
-            // alert(candidateType);
-        });
-
+    // Go to next round --> Reset this round
+    $("#nextRound").on("click", function() {
+        resetRound();
     });
 
 }
@@ -489,3 +489,17 @@ function clickEvents() {
 $(function() {
     clickEvents();
 });
+
+
+
+
+/*
+
+
+        $("." + champName).each(function(i, obj) {
+            var candidateType = $(this).attr("class").split(" ")[1];
+            // alert(candidateType);
+        });
+
+
+ */
