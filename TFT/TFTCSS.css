@@ -18,6 +18,12 @@ h1 {
 #colSpan2 {
 
 }
+#myDeckImg {
+    width: 60%;
+}
+#candidateTable td {
+    width: 50%;
+}
 
 /*The type title of the selection pool*/
 .typeTitle {
