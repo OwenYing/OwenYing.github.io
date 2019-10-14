@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TFT Strategy Helper</title>
+    <link rel="stylesheet" href="TFTCSS.css">
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="TFTJavaScript.js"></script>
+</head>
+<body>
+
+<div id="container">
+
+    <h1>TFT Strategy Helper</h1>
+
+    <!--My Deck-->
+    <h2>My Deck</h2>
+    <table width="100%" border="1em">
+        <tr>
+            <td id="myDeckImg"></td>
+            <td id="myDeckSynergy"></td>
+        </tr>
+    </table>
+
+    <!--Candidate of this round-->
+    <h2>Candidates</h2> <h2 id="nextRound" style="color:rebeccapurple">Next Round</h2>
+    <table id="candidateTable" width="100%" border="1em">
+        <tr id="candidateRow1">
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+        </tr>
+        <tr id="candidateRow2">
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+        </tr>
+        <tr id="candidateRow3">
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+        </tr>
+        <tr id="candidateRow4">
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+        </tr>
+        <tr id="candidateRow5">
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+        </tr>
+    </table>
+
+    <!--Selection Pool-->
+    <h2>Selection Pool</h2>
+    <table width="100%" border="1em">
+        <!--Group the first two column and the second two column-->
+        <colgroup>
+            <col span="2" id="colSpan1">
+            <col span="2" id="colSpan2">
+        </colgroup>
+
+        <!--**********One row starts*********-->
+        <tr>
+            <!--=============One type starts: 1.xxxxTitle 2.assassin 3.png+champName 4.oneCoin-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle assasinTitle">ASSASIN (3>6)</div>
+                <div class="typeInfo"><strong>[3/6]</strong>+150%,<strong>[6/6]</strong>+350%, <br/>Crit damage for Assasin</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral assassin KhaZix">
+                    <img src="resources/image/KhaZix.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral assassin Pyke">
+                    <img src="resources/image/Pyke.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral assassin Zed">
+                    <img src="resources/image/Zed.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral assassin Evelynn">
+                    <img src="resources/image/Evelynn.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral assassin Katarina">
+                    <img src="resources/image/Katarina.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral assassin Rengar">
+                    <img src="resources/image/Rengar.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral assassin Akali">
+                    <img src="resources/image/Akali.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+
+            </td>
+            <!-- ==============One Type Ends-->
+
+            <!--=============One type starts-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle wildTitle">WILD (2>4)</div>
+                <div class="typeInfo"><strong>[2/4]</strong> for wild,<strong>[4/4]</strong> for all allies, <br/>7% attach speed up to 5 stacks</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral wild Nidalee">
+                    <img src="resources/image/Nidalee.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral wild Warwick">
+                    <img src="resources/image/Warwick.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral wild Ahri">
+                    <img src="resources/image/Ahri.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral wild Rengar">
+                    <img src="resources/image/Rengar.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral wild Gnar">
+                    <img src="resources/image/Gnar.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+
+            </td>
+            <!-- ==============One Type Ends-->
+
+        </tr>
+        <!--**********One row ends*********-->
+
+        <!--**********One row starts*********-->
+        <tr>
+            <!--=============One type starts: 1.xxxxTitle 2.assassin 3.png+champName 4.oneCoin-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle nobleTitle">NOBLE (3>6)</div>
+                <div class="typeInfo"><strong>[3/6]</strong> 1 random ally,<strong>[6/6]</strong> for all allies, <br/>+100 Armor And Heal 35HP On Hit</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral noble Fiora">
+                    <img src="resources/image/Fiora.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral noble Garen">
+                    <img src="resources/image/Garen.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral noble Vayne">
+                    <img src="resources/image/Vayne.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral noble Lucian">
+                    <img src="resources/image/Lucian.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral noble Leona">
+                    <img src="resources/image/Leona.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+                <div class="champGeneral noble Kayle">
+                    <img src="resources/image/Kayle.png" class="champPic">
+                    <div class="champCostLabel fiveCoin">5</div>
+                </div>
+
+            </td>
+            <!-- ==============One Type Ends-->
+
+            <!--=============One type starts-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle gunslingerTitle">GUNSLINGER (2>4)</div>
+                <div class="typeInfo">50% chance to attack <br/><strong>[2/4]</strong> 1 additional,<strong>[4/4]</strong> all targets in range</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral gunslinger Graves">
+                    <img src="resources/image/Graves.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral gunslinger Tristana">
+                    <img src="resources/image/Tristana.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral gunslinger Lucian">
+                    <img src="resources/image/Lucian.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral gunslinger GangPlank">
+                    <img src="resources/image/GangPlank.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral gunslinger MissFortune">
+                    <img src="resources/image/MissFortune.png" class="champPic">
+                    <div class="champCostLabel fiveCoin">5</div>
+                </div>
+
+            </td>
+            <!-- ==============One Type Ends-->
+
+        </tr>
+        <!--**********One row ends*********-->
+
+
+        <!--**********One row starts*********-->
+        <tr>
+            <!--=============One type starts: 1.xxxxTitle 2.assassin 3.png+champName 4.oneCoin-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle knightTitle">KNIGHT (2>4>6)</div>
+                <div class="typeInfo">All knights block <br/><strong>[2/6]</strong> 20,<strong>[4/6]</strong> 40,<strong>[6/6]</strong> 80 <br/>damage from basic attacks</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral knight Darius">
+                    <img src="resources/image/Darius.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral knight Garen">
+                    <img src="resources/image/Garen.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral knight Mordekaiser">
+                    <img src="resources/image/Mordekaiser.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral knight Poppy">
+                    <img src="resources/image/Poppy.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral knight Sejuani">
+                    <img src="resources/image/Sejuani.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+                <div class="champGeneral knight Kayle">
+                    <img src="resources/image/Kayle.png" class="champPic">
+                    <div class="champCostLabel fiveCoin">5</div>
+                </div>
+
+            </td>
+            <!-- ==============One Type Ends-->
+
+            <!--=============One type starts-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle rangerTitle">RANGER (2>4)</div>
+                <div class="typeInfo">Every 3s, Rangers get <br/><strong>[2/4]</strong> 35%,<strong>[4/4]</strong> 65%, chance to double attack speed for 3s</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral ranger Vayne">
+                    <img src="resources/image/Vayne.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral ranger Varus">
+                    <img src="resources/image/Varus.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral ranger Ashe">
+                    <img src="resources/image/Ashe.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral ranger Kindred">
+                    <img src="resources/image/Kindred.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+
+            </td>
+            <!-- ==============One Type Ends-->
+
+        </tr>
+        <!--**********One row ends*********-->
+
+
+
+        <!--**********One row starts*********-->
+        <tr>
+            <!--=============One type starts: 1.xxxxTitle 2.assassin 3.png+champName 4.oneCoin-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle sorcererTitle">SORCERER (3>6)</div>
+                <div class="typeInfo">Basic attacks grant 2x mana <br/><strong>[3/6]</strong> +35AP,<strong>[6/6]</strong> +100AP <br/>to the team</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral sorcerer Kassadin">
+                    <img src="resources/image/Kassadin.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral sorcerer Ahri">
+                    <img src="resources/image/Ahri.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral sorcerer Lulu">
+                    <img src="resources/image/Lulu.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral sorcerer Morgana">
+                    <img src="resources/image/Morgana.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral sorcerer Veigar">
+                    <img src="resources/image/Veigar.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral sorcerer Aurelion">
+                    <img src="resources/image/Aurelion.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+                <div class="champGeneral sorcerer Karthus">
+                    <img src="resources/image/Karthus.png" class="champPic">
+                    <div class="champCostLabel fiveCoin">5</div>
+                </div>
+
+            </td>
+            <!-- ==============One Type Ends-->
+
+            <!--=============One type starts-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle yordleTitle">YORDLE (3>6)</div>
+                <div class="typeInfo"><strong>[3/6]</strong> 25%,<strong>[6/6]</strong> 60%,<br/> chance for Yordles to dodge attacks</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral yordle Tristana">
+                    <img src="resources/image/Tristana.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral yordle Lulu">
+                    <img src="resources/image/Lulu.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral yordle Kennen">
+                    <img src="resources/image/Kennen.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral yordle Poppy">
+                    <img src="resources/image/Poppy.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral yordle Veigar">
+                    <img src="resources/image/Veigar.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral yordle Gnar">
+                    <img src="resources/image/Gnar.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+
+            </td>
+            <!-- ==============One Type Ends-->
+
+        </tr>
+        <!--**********One row ends*********-->
+
+
+
+        <!--**********One row starts*********-->
+        <tr>
+            <!--=============One type starts: 1.xxxxTitle 2.assassin 3.png+champName 4.oneCoin-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle voidTitle">VOID (3)</div>
+                <div class="typeInfo"><strong>[3/3]</strong> Team's attacks ignore 50% of Enemy Armor</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral void Kassadin">
+                    <img src="resources/image/Kassadin.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral void KhaZix">
+                    <img src="resources/image/KhaZix.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral void RekSai">
+                    <img src="resources/image/RekSai.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral void ChoGath">
+                    <img src="resources/image/ChoGath.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+
+
+            </td>
+            <!-- ==============One Type Ends-->
+
+            <!--=============One type starts-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle glacialTitle">GLACIAL (2>4>6)</div>
+                <div class="typeInfo"><strong>[2/6]</strong> 25%,<strong>[4/6]</strong> 35%,<strong>[6/6]</strong> 45%<br/> chance to stun for two seconds</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral glacial Braum">
+                    <img src="resources/image/Braum.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral glacial Lissandra">
+                    <img src="resources/image/Lissandra.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral glacial Ashe">
+                    <img src="resources/image/Ashe.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral glacial Volibear">
+                    <img src="resources/image/Volibear.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral glacial Sejuani">
+                    <img src="resources/image/Sejuani.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+                <div class="champGeneral glacial Anivia">
+                    <img src="resources/image/Anivia.png" class="champPic">
+                    <div class="champCostLabel fiveCoin">5</div>
+                </div>
+
+            </td>
+            <!-- ==============One Type Ends-->
+
+        </tr>
+        <!--**********One row ends*********-->
+
+
+
+        <!--**********One row starts*********-->
+        <tr>
+            <!--=============One type starts: 1.xxxxTitle 2.assassin 3.png+champName 4.oneCoin-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle brawlerTitle">BRAWLER (2>4)</div>
+                <div class="typeInfo"><strong>[2/4]</strong> +300HP, <strong>[4/4]</strong> +700HP,<br/> For all brawlers</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral brawler Warwick">
+                    <img src="resources/image/Warwick.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral brawler Blitz">
+                    <img src="resources/image/Blitz.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral brawler RekSai">
+                    <img src="resources/image/RekSai.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral brawler Volibear">
+                    <img src="resources/image/Volibear.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral brawler ChoGath">
+                    <img src="resources/image/ChoGath.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+
+
+            </td>
+            <!-- ==============One Type Ends-->
+
+            <!--=============One type starts-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle elementalistTitle">ELEMENTALIST (3)</div>
+                <div class="typeInfo"><strong>[3/3]</strong> Basic attacks grant 2x Mana. At start of round, summon a Golem</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral elementalist Lissandra">
+                    <img src="resources/image/Lissandra.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral elementalist Kennen">
+                    <img src="resources/image/Kennen.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral elementalist Brand">
+                    <img src="resources/image/Brand.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+                <div class="champGeneral elementalist Anivia">
+                    <img src="resources/image/Anivia.png" class="champPic">
+                    <div class="champCostLabel fiveCoin">5</div>
+                </div>
+
+            </td>
+            <!-- ==============One Type Ends-->
+
+        </tr>
+        <!--**********One row ends*********-->
+
+
+
+        <!--**********One row starts*********-->
+        <tr>
+            <!--=============One type starts: 1.xxxxTitle 2.assassin 3.png+champName 4.oneCoin-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle demonTitle">DEMON (2>4>6)</div>
+                <div class="typeInfo"><strong>[2/6]</strong> 40%, <strong>[4/6]</strong> 60%,<strong>[6/6]</strong> 80%<br/> Chance to burn Enemy Mana and Deal True Damage</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral demon Elise">
+                    <img src="resources/image/Elise.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral demon Varus">
+                    <img src="resources/image/Varus.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral demon Aatrox">
+                    <img src="resources/image/Aatrox.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral demon Evelynn">
+                    <img src="resources/image/Evelynn.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral demon Morgana">
+                    <img src="resources/image/Morgana.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral demon Brand">
+                    <img src="resources/image/Brand.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+                <div class="champGeneral demon Swain">
+                    <img src="resources/image/Swain.png" class="champPic">
+                    <div class="champCostLabel fiveCoin">5</div>
+                </div>
+
+
+            </td>
+            <!-- ==============One Type Ends-->
+
+            <!--=============One type starts-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle ninjaTitle">NINJA (1 or 4)</div>
+                <div class="typeInfo"><strong>[1/4]</strong> +40%, <strong>[4/4]</strong> +60%, <br/> Ninja gain attack damage</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral ninja Shen">
+                    <img src="resources/image/Shen.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral ninja Zed">
+                    <img src="resources/image/Zed.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral ninja Kennen">
+                    <img src="resources/image/Kennen.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral ninja Akali">
+                    <img src="resources/image/Akali.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+
+            </td>
+            <!-- ==============One Type Ends-->
+
+        </tr>
+        <!--**********One row ends*********-->
+
+
+
+        <!--**********One row starts*********-->
+        <tr>
+            <!--=============One type starts: 1.xxxxTitle 2.assassin 3.png+champName 4.oneCoin-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle shapeshifterTitle">SHAPESHIFTER (3)</div>
+                <div class="typeInfo"><strong>[3/3]</strong> On Transform, gain 100% Max HP</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral shapeshifter Nidalee">
+                    <img src="resources/image/Nidalee.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral shapeshifter Elise">
+                    <img src="resources/image/Elise.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral shapeshifter Shyvana">
+                    <img src="resources/image/Shyvana.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral shapeshifter Gnar">
+                    <img src="resources/image/Gnar.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+                <div class="champGeneral shapeshifter Swain">
+                    <img src="resources/image/Swain.png" class="champPic">
+                    <div class="champCostLabel fiveCoin">5</div>
+                </div>
+
+
+            </td>
+            <!-- ==============One Type Ends-->
+
+            <!--=============One type starts-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle blademasterTitle">BLADEMASTER (3>6)</div>
+                <div class="typeInfo">45% chance for Blademasters to Attack <strong>[3/6]</strong> 1, <strong>[6/6]</strong> 2, Extra Times</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral blademaster Fiora">
+                    <img src="resources/image/Fiora.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral blademaster Shen">
+                    <img src="resources/image/Shen.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral blademaster Aatrox">
+                    <img src="resources/image/Aatrox.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral blademaster GangPlank">
+                    <img src="resources/image/GangPlank.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral blademaster Draven">
+                    <img src="resources/image/Draven.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+                <div class="champGeneral blademaster Yasuo">
+                    <img src="resources/image/Yasuo.png" class="champPic">
+                    <div class="champCostLabel fiveCoin">5</div>
+                </div>
+
+            </td>
+            <!-- ==============One Type Ends-->
+
+        </tr>
+        <!--**********One row ends*********-->
+
+
+        <!--**********One row starts*********-->
+        <tr>
+            <!--=============One type starts: 1.xxxxTitle 2.assassin 3.png+champName 4.oneCoin-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle dragonTitle">DRAGON (2)</div>
+                <div class="typeInfo"><strong>[2/2]</strong> Dragons are Immune to Magic Damage </div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral dragon Shyvana">
+                    <img src="resources/image/Shyvana.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral dragon Aurelion">
+                    <img src="resources/image/Aurelion.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+            </td>
+            <!-- ==============One Type Ends-->
+
+            <!--=============One type starts-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle imperialTitle">IMPERIAL (2>4)</div>
+                <div class="typeInfo">Double Damage for <br/> <strong>[2/4]</strong> 1 Imperial, <strong>[4/4]</strong> all Imperials</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral imperial Darius">
+                    <img src="resources/image/Darius.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral imperial Katarina">
+                    <img src="resources/image/Katarina.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral imperial Draven">
+                    <img src="resources/image/Draven.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+                <div class="champGeneral imperial Swain">
+                    <img src="resources/image/Swain.png" class="champPic">
+                    <div class="champCostLabel fiveCoin">5</div>
+                </div>
+
+            </td>
+            <!-- ==============One Type Ends-->
+
+        </tr>
+        <!--**********One row ends*********-->
+
+
+
+        <!--**********One row starts*********-->
+        <tr>
+            <!--=============One type starts: 1.xxxxTitle 2.assassin 3.png+champName 4.oneCoin-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle pirateTitle">PIRATE (3)</div>
+                <div class="typeInfo"><strong>[3/3]</strong> Gain 0-4 Gold from each PVP Round </div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral pirate Graves">
+                    <img src="resources/image/Graves.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral pirate Pyke">
+                    <img src="resources/image/Pyke.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral pirate GangPlank">
+                    <img src="resources/image/GangPlank.png" class="champPic">
+                    <div class="champCostLabel threeCoin">3</div>
+                </div>
+                <div class="champGeneral pirate MissFortune">
+                    <img src="resources/image/MissFortune.png" class="champPic">
+                    <div class="champCostLabel fiveCoin">5</div>
+                </div>
+            </td>
+            <!-- ==============One Type Ends-->
+
+            <!--=============One type starts-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle phantomTitle">PHANTOM (2)</div>
+                <div class="typeInfo"><strong>[2/2]</strong> Set One Random Enemy to 100 HP</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral phantom Mordekaiser">
+                    <img src="resources/image/Mordekaiser.png" class="champPic">
+                    <div class="champCostLabel oneCoin">1</div>
+                </div>
+                <div class="champGeneral phantom Kindred">
+                    <img src="resources/image/Kindred.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+                <div class="champGeneral phantom Karthus">
+                    <img src="resources/image/Karthus.png" class="champPic">
+                    <div class="champCostLabel fiveCoin">5</div>
+                </div>
+            </td>
+            <!-- ==============One Type Ends-->
+
+        </tr>
+        <!--**********One row ends*********-->
+
+
+        <!--**********One row starts*********-->
+        <tr>
+            <!--=============One type starts: 1.xxxxTitle 2.assassin 3.png+champName 4.oneCoin-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle guardianTitle">GUARDIAN (2)</div>
+                <div class="typeInfo"><strong>[2/2]</strong> +40 Armor to Adjacent Guardians and Allies at start of round </div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral guardian Braum">
+                    <img src="resources/image/Braum.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+                <div class="champGeneral guardian Leona">
+                    <img src="resources/image/Leona.png" class="champPic">
+                    <div class="champCostLabel fourCoin">4</div>
+                </div>
+            </td>
+            <!-- ==============One Type Ends-->
+
+            <!--=============One type starts-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle robotTitle">ROBOT (1)</div>
+                <div class="typeInfo"><strong>[1/1]</strong> Robots Start Combat with Full Mana</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral robot Blitz">
+                    <img src="resources/image/Blitz.png" class="champPic">
+                    <div class="champCostLabel twoCoin">2</div>
+                </div>
+            </td>
+            <!-- ==============One Type Ends-->
+
+        </tr>
+        <!--**********One row ends*********-->
+
+
+        <!--**********One row starts*********-->
+        <tr>
+            <!--=============One type starts: 1.xxxxTitle 2.assassin 3.png+champName 4.oneCoin-->
+            <td class="selectionTitleCell">
+                <div class="typeTitle exileTitle">EXILE (1)</div>
+                <div class="typeInfo"><strong>[1/1]</strong> Exiles Start Combat with Shield of 100% HP when No Adjacent Allies</div>
+            </td>
+            <td class="selectionHeroCell">
+                <div class="champGeneral exile Yasuo">
+                    <img src="resources/image/Yasuo.png" class="champPic">
+                    <div class="champCostLabel fiveCoin">5</div>
+                </div>
+            </td>
+            <!-- ==============One Type Ends-->
+
+            <!--=============One type starts-->
+            <td class="selectionTitleCell">
+                <!--<div class="typeTitle robotTitle">TBD</div>-->
+                <!--<div class="typeInfo"><strong>[1/1]</strong> Robots Start Combat with Full Mana</div>-->
+            </td>
+            <td class="selectionHeroCell">
+                <!--<div class="champGeneral robot Blitz">-->
+                    <!--<img src="resources/image/Blitz.png" class="champPic">-->
+                    <!--<div class="champCostLabel twoCoin">2</div>-->
+                <!--</div>-->
+            </td>
+            <!-- ==============One Type Ends-->
+
+        </tr>
+        <!--**********One row ends*********-->
+
+
+    </table>
+
+</div>
+</body>
+</html>
