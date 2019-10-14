@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8e927f9-dbfb-47d2-876a-a7af37a4c3a5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cv/resume.pdf" afterPath="$PROJECT_DIR$/cv/resume.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyBlog.iws" />
@@ -132,7 +133,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -315,8 +317,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -573,13 +574,8 @@
       <workItem from="1533655727693" duration="688000" />
       <workItem from="1549678779242" duration="3094000" />
       <workItem from="1571017009628" duration="941000" />
-      <workItem from="1571017986119" duration="6000" />
-    </task>
-    <task id="LOCAL-00027" summary="Algo - Recursive thinking">
-      <created>1506223697143</created>
-      <option name="number" value="00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1506223697143</updated>
+      <workItem from="1571017986119" duration="215000" />
+      <workItem from="1571021446079" duration="53000" />
     </task>
     <task id="LOCAL-00028" summary="Diary: Github notebook">
       <created>1506276836593</created>
@@ -869,11 +865,17 @@
       <option name="project" value="LOCAL" />
       <updated>1571017939319</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Mathworks updates">
+      <created>1571017999135</created>
+      <option name="number" value="00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1571017999135</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74678000" />
+    <option name="totallyTimeSpent" value="74940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -987,13 +989,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/css">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/img/cv.svg">
